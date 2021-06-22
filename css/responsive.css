@@ -211,7 +211,7 @@
 
     .heading h3::before {
         left: 50%;
-        border: 2px solid #e50914;
+        border: 2px solid #A0F2EA;
         -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
         transform: translateX(-50%);
