@@ -41,7 +41,7 @@ body {
 }
 
 #darkmode {
-    background: #141414;
+    background: #e6e6e6;
 }
 
 ul,
@@ -119,7 +119,7 @@ p {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #191919;
+    background: #ebebeb;
     z-index: 999999999;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -204,13 +204,13 @@ p {
 /* model */
 .modal {
     z-index: 99999999;
-    background: rgba(20, 20, 20, 0.8);
+    background: rgba(230, 230, 230, 0.8);
 }
 
 .modal-title {
     font-size: 32px;
     font-family: bb;
-    color: white;
+    color: black;
     position: relative;
     padding-left: 25px;
     text-transform: uppercase;
@@ -225,11 +225,11 @@ p {
 }
 
 .modal-content {
-    background: #141414;
+    background: #e6e6e6;
 }
 
 .modal-header {
-    border-bottom: 1px solid #191919;
+    border-bottom: 1px solid #ebebeb;
 }
 
 .modal-body {
@@ -237,12 +237,12 @@ p {
 }
 
 .modal-footer {
-    border-top: 1px solid #191919;
+    border-top: 1px solid #ebebeb;
     padding: 20px 15px;
 }
 
 .close span {
-    color: white;
+    color: black;
     position: absolute;
     top: 1px;
     right: 7px;
@@ -264,7 +264,7 @@ p {
 .cart-item h3 {
     font-size: 29px;
     font-family: bb;
-    color: white;
+    color: black;
     padding-bottom: 15px;
     padding-top: 17px;
 }
@@ -280,7 +280,7 @@ p {
 }
 
 .cart-item a i {
-    color: #fff;
+    color: #000;
     font-size: 14px;
     position: absolute;
     right: 38px;
@@ -312,14 +312,14 @@ p {
 .contact-box .form-control:focus {
     -webkit-box-shadow: none;
     box-shadow: none;
-    color: white;
+    color: black;
 }
 
 /* Login start */
 .logoss {
     font-size: 36px;
     font-family: bb;
-    color: white;
+    color: black;
     letter-spacing: 6px;
 }
 
@@ -328,7 +328,7 @@ p {
 }
 
 .logoss:hover {
-    color: white;
+    color: black;
 }
 
 .login-12 {
@@ -349,7 +349,7 @@ p {
     -ms-flex-align: center;
     align-items: center;
     padding: 30px 0;
-    background: #141414;
+    background: #e6e6e6;
 }
 
 .login-12 .login-inner-form {
@@ -369,7 +369,7 @@ p {
 
 .login-12 .login-inner-form .details p a {
     margin-left: 3px;
-    color: #fff;
+    color: #000;
     font-family: bb;
 }
 
@@ -396,7 +396,7 @@ p {
     margin: 0 200px 0 150px;
     max-width: 700px;
     border-radius: 10px;
-    background: #191919;
+    background: #ebebeb;
     background-size: cover;
     top: 0;
     bottom: 0;
@@ -408,7 +408,7 @@ p {
     border-radius: 3px;
     padding: 6px 30px 6px 30px;
     color: #ff574d;
-    background: #fff;
+    background: #000;
     letter-spacing: 1px;
     font-size: 14px;
     font-weight: 600;
@@ -427,7 +427,7 @@ p {
     margin: 0 0 25px;
     font-size: 25px;
     font-family: bb;
-    color: white;
+    color: black;
 }
 
 .login-12 .login-inner-form .form-group {
@@ -492,7 +492,7 @@ p {
 .login-12 .bg-img .social-list li a {
     margin: 0 12px;
     font-size: 19px;
-    color: #fff;
+    color: #000;
     border-radius: 3px;
     display: inline-block;
     -webkit-transition: all linear .3s;
@@ -525,7 +525,7 @@ input[type=radio] {
     font-size: 18px;
     font-family: br;
     border: none;
-    color: #fff;
+    color: #000;
 }
 
 .login-12 .login-inner-form .btn-theme:hover {
@@ -567,14 +567,14 @@ input[type=radio] {
     margin-left: -25px;
     border: 1px solid #c5c3c3;
     border-radius: 3px;
-    background-color: #fff;
+    background-color: #000;
 }
 
 .login-12 .login-inner-form .form-check-label {
     padding-left: 25px;
     margin-bottom: 0;
     font-size: 14px;
-    color: #fff;
+    color: #000;
 }
 
 .form-check {
@@ -682,8 +682,8 @@ input[type=radio] {
 
 .index3 .banner-arrow i,
 .index4 .banner-arrow i {
-    color: white;
-    border: 2px solid white;
+    color: black;
+    border: 2px solid black;
 }
 
 /* version 4 */
@@ -701,13 +701,13 @@ input[type=radio] {
 /* inner pages css */
 .inner-page #inner-banner {
     padding: 150px 0;
-    background: #191919;
+    background: #ebebeb;
 }
 
 .inner-page #inner-banner h3 {
     font-size: 52px;
     font-family: bb;
-    color: white;
+    color: black;
     padding-bottom: 18px;
 }
 
@@ -728,7 +728,7 @@ input[type=radio] {
 }
 
 .inner-page .cart-items {
-    background: #191919;
+    background: #ebebeb;
     padding: 30px 20px;
     position: relative;
     margin-bottom: 30px;
@@ -736,7 +736,7 @@ input[type=radio] {
 
 .inner-page .cart-items h3 {
     font-size: 38px;
-    color: white;
+    color: black;
     font-family: bb;
 }
 
@@ -753,7 +753,7 @@ input[type=radio] {
     height: 25px;
     line-height: 25px;
     background: #A0F2EA;
-    color: white;
+    color: black;
     position: absolute;
     top: 0;
     right: 0;
@@ -775,7 +775,7 @@ input[type=radio] {
 }
 
 .inner-page .checkout-box {
-    background: #191919;
+    background: #ebebeb;
     padding: 40px;
     margin-bottom: 15px;
 }
@@ -795,15 +795,15 @@ input[type=radio] {
 }
 
 .inner-page .checkout-box h4 {
-    color: white;
+    color: black;
 }
 
 .inner-page .checkout-button {
     margin-top: 25px;
 }
 
-.btn-c-white {
-    color: white !important;
+.btn-c-black {
+    color: black !important;
 }
 
 /*===========================
@@ -823,7 +823,7 @@ input[type=radio] {
 
 .navbar-light .navbar-brand {
     font-size: 28px;
-    color: white;
+    color: black;
     font-family: bb;
     position: relative;
     letter-spacing: 8px;
@@ -832,7 +832,7 @@ input[type=radio] {
 
 .navbar-light .navbar-brand:focus,
 .navbar-light .navbar-brand:hover {
-    color: white;
+    color: black;
 }
 
 .navbar-light .navbar-brand span {
@@ -841,7 +841,7 @@ input[type=radio] {
 
 .navbar-light .navbar-nav .nav-link i {
     font-size: 16px;
-    color: white;
+    color: black;
     margin-left: 22px;
 }
 
@@ -859,7 +859,7 @@ input[type=radio] {
     line-height: 50px;
     text-align: center;
     background: #A0F2EA;
-    color: #fff;
+    color: #000;
     border-radius: 50%;
 }
 
@@ -879,7 +879,7 @@ input[type=radio] {
     text-align: center;
     line-height: 20px;
     background: #A0F2EA;
-    color: white;
+    color: black;
     font-size: 13px;
     font-family: bb;
     left: 47px;
@@ -891,7 +891,7 @@ input[type=radio] {
 }
 
 .nav-bg {
-    background: #141414 !important;
+    background: #e6e6e6 !important;
     padding: 25px 0;
     -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
     box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
@@ -965,7 +965,7 @@ input[type=radio] {
     position: fixed;
     top: 15px;
     right: 14px;
-    color: #fff;
+    color: #000;
     background-color: #A0F2EA;
     border-color: #A0F2EA;
     opacity: 1;
@@ -983,7 +983,7 @@ input[type=radio] {
     height: 100%;
     left: 0;
     top: 0;
-    background: #191919;
+    background: #ebebeb;
     display: none;
 }
 
@@ -1007,7 +1007,7 @@ input[type=radio] {
 .custom-menubar .menu-link {
     font-size: 49px;
     font-family: bb;
-    color: white;
+    color: black;
     text-transform: uppercase;
     -webkit-transition: all linear .3s;
     -o-transition: all linear .3s;
@@ -1022,7 +1022,7 @@ input[type=radio] {
 
 .menu-close a i {
     font-size: 24px;
-    color: #fff;
+    color: #000;
     width: 55px;
     height: 55px;
     position: absolute;
@@ -1053,7 +1053,7 @@ input[type=radio] {
 
 .responsive-nav li a i {
     font-size: 16px;
-    color: white;
+    color: black;
 }
 
 .responsive-nav li a span {
@@ -1064,7 +1064,7 @@ input[type=radio] {
     text-align: center;
     line-height: 19px;
     background: #A0F2EA;
-    color: white;
+    color: black;
     font-size: 13px;
     font-family: bb;
     left: 30px;
@@ -1076,7 +1076,7 @@ input[type=radio] {
 =============================*/
 #banner {
     padding: 220px 0 170px;
-    background: #191919;
+    background: #ebebeb;
     overflow-y: hidden;
     position: relative;
 
@@ -1091,7 +1091,7 @@ input[type=radio] {
 }
 
 .backtotop i {
-    color: #fff;
+    color: #000;
     text-align: center;
     font-size: 21px;
     line-height: 60px;
@@ -1111,7 +1111,7 @@ input[type=radio] {
 
 .backtotop:hover i {
     background: #A0F2EA;
-    color: white;
+    color: black;
 }
 
 .banner-item {
@@ -1122,7 +1122,7 @@ input[type=radio] {
     font-family: bb;
     font-size: 100px;
     -webkit-text-stroke-color: #A0F2EA;
-    -webkit-text-fill-color: #FFF;
+    -webkit-text-fill-color: #000;
     -webkit-text-stroke-width: 1px;
     text-shadow: 2px 2px 0 #A0F2EA;
 }
@@ -1136,7 +1136,7 @@ input[type=radio] {
 
 .main-btn {
     padding: 15px 20px;
-    color: white;
+    color: black;
     font-size: 18px;
     font-family: bb;
     background: #A0F2EA;
@@ -1150,7 +1150,7 @@ input[type=radio] {
 }
 
 .main-btn:hover {
-    color: #fff;
+    color: #000;
     background: #bf000a;
     cursor: pointer;
 }
@@ -1191,7 +1191,7 @@ input[type=radio] {
     position: absolute;
     width: 90px;
     height: 90px;
-    background: white;
+    background: black;
     color: #A0F2EA;
     line-height: 94px;
     text-align: center;
@@ -1207,7 +1207,7 @@ input[type=radio] {
 
 .vid-btn i:hover {
     background: #A0F2EA;
-    color: white;
+    color: black;
 }
 
 .follow-us {
@@ -1240,7 +1240,7 @@ input[type=radio] {
 
 .follow-us a i {
     font-size: 18px;
-    color: white;
+    color: black;
     margin-right: 15px;
     -webkit-transition: all linear .3s;
     -o-transition: all linear .3s;
@@ -1276,8 +1276,8 @@ input[type=radio] {
 
 .banner-arrow i:hover {
     cursor: pointer;
-    border: 1px solid white;
-    color: white;
+    border: 1px solid black;
+    color: black;
 }
 
 /*===========================
@@ -1298,7 +1298,7 @@ input[type=radio] {
     left: 0;
     width: 100%;
     height: 2px;
-    background: #191919;
+    background: #ebebeb;
 }
 
 .gl-one {
@@ -1353,7 +1353,7 @@ input[type=radio] {
     padding: 30px 0 4px;
     font-size: 25px;
     font-family: bb;
-    color: white;
+    color: black;
     display: block;
 }
 
@@ -1374,7 +1374,7 @@ input[type=radio] {
 .game-box h3 {
     font-size: 38px;
     font-family: bb;
-    color: white;
+    color: black;
     text-transform: uppercase;
     padding: 7px 0 18px;
 }
@@ -1417,7 +1417,7 @@ input[type=radio] {
 
 .lightbox-overlay a i {
     font-size: 25px;
-    color: white;
+    color: black;
 }
 
 .game-img:hover .lightbox-overlay {
@@ -1437,9 +1437,9 @@ input[type=radio] {
 .heading h3 {
     font-size: 110px;
     font-family: bb;
-    color: white;
+    color: black;
     -webkit-text-stroke-color: #A0F2EA;
-    -webkit-text-fill-color: #FFF;
+    -webkit-text-fill-color: #000;
     -webkit-text-stroke-width: 1px;
     text-shadow: 2px 2px 0 #A0F2EA;
     position: relative;
@@ -1476,7 +1476,7 @@ input[type=radio] {
 .about-txt h3 {
     font-size: 38px;
     font-family: bb;
-    color: white;
+    color: black;
     text-transform: uppercase;
     padding: 5px 0 25px;
     line-height: 52px;
@@ -1542,12 +1542,12 @@ input[type=radio] {
 .about-txt-overlay h3 {
     font-size: 80px;
     font-family: bb;
-    color: white;
+    color: black;
 }
 
 .about-txt-overlay span {
     font-family: br;
-    color: white;
+    color: black;
 }
 
 /*===========================
@@ -1559,7 +1559,7 @@ input[type=radio] {
 
 .counter-item {
     padding: 40px 0;
-    background: #191919;
+    background: #ebebeb;
 }
 
 .counter-item i {
@@ -1575,7 +1575,7 @@ input[type=radio] {
 .counter-item h3 {
     font-size: 50px;
     font-family: bb;
-    color: white;
+    color: black;
     padding-bottom: 6px;
     display: inline-block;
 }
@@ -1583,7 +1583,7 @@ input[type=radio] {
 .counter-item span {
     font-size: 50px;
     font-family: bb;
-    color: white;
+    color: black;
 }
 
 .counter-item span b {
@@ -1613,7 +1613,7 @@ input[type=radio] {
 }
 
 .live-match-item {
-    background: #191919;
+    background: #ebebeb;
     padding: 30px;
     border-radius: 12px;
     -webkit-transition: all linear .3s;
@@ -1629,13 +1629,13 @@ input[type=radio] {
 .live-match-item:hover p,
 .live-match-item:hover a,
 .live-match-item:hover a i {
-    color: white;
+    color: black;
 }
 
 .match-text h3 {
     font-size: 25px;
     font-family: bb;
-    color: #fff;
+    color: #000;
     -webkit-transition: all linear .3s;
     -o-transition: all linear .3s;
     transition: all linear .3s;
@@ -1690,7 +1690,7 @@ input[type=radio] {
 }
 
 .match-item {
-    background: #191919;
+    background: #ebebeb;
     padding: 25px 0;
     margin-top: 40px;
 }
@@ -1702,7 +1702,7 @@ input[type=radio] {
 .vs-txt h3 {
     font-size: 35px;
     font-family: bb;
-    color: white;
+    color: black;
     padding-top: 24px;
 }
 
@@ -1719,7 +1719,7 @@ input[type=radio] {
 }
 
 .watch-item img {
-    border: 6px solid #191919;
+    border: 6px solid #ebebeb;
 }
 
 .video-overlay {
@@ -1735,7 +1735,7 @@ input[type=radio] {
 .video-overlay a i {
     width: 90px;
     height: 90px;
-    background: white;
+    background: black;
     color: #A0F2EA;
     border-radius: 50%;
     text-align: center;
@@ -1748,7 +1748,7 @@ input[type=radio] {
 
 .video-overlay a i:hover {
     background: #A0F2EA;
-    color: white;
+    color: black;
 }
 
 /*===========================
@@ -1773,7 +1773,7 @@ input[type=radio] {
 =============================*/
 #player {
     padding: 80px 0;
-    background: #191919;
+    background: #ebebeb;
     position: relative;
 }
 
@@ -1804,7 +1804,7 @@ input[type=radio] {
     font-size: 24px;
     font-family: bb;
     text-transform: uppercase;
-    color: #fff;
+    color: #000;
     line-height: 60px;
 }
 
@@ -1825,7 +1825,7 @@ input[type=radio] {
 .player-txt h3 {
     font-size: 38px;
     font-family: bb;
-    color: white;
+    color: black;
     text-transform: uppercase;
     padding: 5px 40px 0 0;
     line-height: 59px;
@@ -1865,7 +1865,7 @@ input[type=radio] {
     height: 0;
     top: 0;
     left: 0;
-    background: rgba(20, 20, 20, 0.8);
+    background: rgba(230, 230, 230, 0.8);
     -webkit-transition: all linear .3s;
     -o-transition: all linear .3s;
     transition: all linear .3s;
@@ -1882,7 +1882,7 @@ input[type=radio] {
 
 .player-lightbox a i {
     font-size: 25px;
-    color: white;
+    color: black;
     opacity: 0;
     -webkit-transition: all linear .3s;
     -o-transition: all linear .3s;
@@ -1914,7 +1914,7 @@ input[type=radio] {
 }
 
 .product-item {
-    background: #191919;
+    background: #ebebeb;
     padding: 30px 20px;
     position: relative;
 }
@@ -1922,7 +1922,7 @@ input[type=radio] {
 .product-item h3 {
     font-size: 40px;
     font-family: bb;
-    color: white;
+    color: black;
     padding-bottom: 15px;
 }
 
@@ -1960,7 +1960,7 @@ input[type=radio] {
 
 .sale span {
     font-family: bb;
-    color: white;
+    color: black;
     font-size: 18px;
 }
 
@@ -1972,7 +1972,7 @@ input[type=radio] {
 }
 
 .join-bg {
-    background: #191919;
+    background: #ebebeb;
     padding: 70px 60px;
     border-radius: 8px;
     margin: 40px 0 0;
@@ -1994,7 +1994,7 @@ input[type=radio] {
 .join-txt h3 {
     font-size: 38px;
     font-family: bb;
-    color: white;
+    color: black;
     text-transform: uppercase;
     line-height: 52px;
     padding: 5px 0 18px;
@@ -2025,14 +2025,14 @@ input[type=radio] {
 }
 
 .blog-txt {
-    background: #191919;
+    background: #ebebeb;
     padding: 30px;
 }
 
 .blog-txt a {
     font-size: 25px;
     font-family: bb;
-    color: white;
+    color: black;
     line-height: 37px;
     padding-top: 8px;
     display: block;
@@ -2079,8 +2079,8 @@ input[type=radio] {
 
 .blog-arrow i:hover {
     cursor: pointer;
-    border: 2px solid white;
-    color: white;
+    border: 2px solid black;
+    color: black;
 }
 
 /*===========================
@@ -2104,13 +2104,13 @@ input[type=radio] {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(20, 20, 20, 0.5);
+    background: rgba(230, 230, 230, 0.5);
 }
 
 .subscribe-txt h3 {
     font-size: 38px;
     font-family: bb;
-    color: white;
+    color: black;
     text-transform: uppercase;
     line-height: 52px;
 }
@@ -2120,7 +2120,7 @@ input[type=radio] {
     color: #A0F2EA;
     font-size: 18px;
     font-family: bb;
-    background: white;
+    background: black;
     position: relative;
     border-radius: 50px;
     top: 39px;
@@ -2132,13 +2132,13 @@ input[type=radio] {
 =============================*/
 #footer {
     padding: 80px 0;
-    background: #191919;
+    background: #ebebeb;
 }
 
 .footer-logo a {
     font-size: 34px;
     font-family: bb;
-    color: white;
+    color: black;
     letter-spacing: 8px;
 }
 
@@ -2158,7 +2158,7 @@ input[type=radio] {
 .footer-menu h3 {
     font-size: 24px;
     font-family: bb;
-    color: white;
+    color: black;
     padding-top: 12px;
     padding-bottom: 8px;
 }
@@ -2181,7 +2181,7 @@ input[type=radio] {
 
 .footer-social a i {
     font-size: 16px;
-    color: white;
+    color: black;
     background: #262525;
     width: 45px;
     height: 45px;
@@ -2204,7 +2204,7 @@ input[type=radio] {
 =============================*/
 #copy_right {
     padding: 25px 0;
-    background: #191919;
+    background: #ebebeb;
     position: relative;
 }
 
@@ -2229,5 +2229,5 @@ input[type=radio] {
 
 .copy-right-txt p a {
     font-family: bb;
-    color: white;
+    color: black;
 }
