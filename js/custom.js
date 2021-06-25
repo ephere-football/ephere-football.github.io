@@ -288,12 +288,9 @@
         var scrolling = $(this).scrollTop();
         var stikey = $('.sticky-top');
 
-        if (scrolling >= 100) {
-
+        if (scrolling >= 32) {
             $(stikey).addClass("nav-bg");
-
         } else {
-
             $(stikey).removeClass("nav-bg");
         }
         if (scrolling > 180) {
