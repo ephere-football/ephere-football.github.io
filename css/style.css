@@ -133,7 +133,7 @@ p {
 }
 
 .loader-box {
-    color: #A0F2EA;
+    color: #F062C0;
     -webkit-animation-duration: 3s;
     animation-duration: 3s;
     width: 44px;
@@ -152,7 +152,7 @@ p {
 
 .loader-box svg rect {
     fill: none;
-    stroke: #A0F2EA;
+    stroke: #F062C0;
     stroke-width: 10px;
     stroke-linejoin: round;
     stroke-linecap: round;
@@ -217,7 +217,7 @@ p {
 }
 
 .modal-title b {
-    color: #A0F2EA;
+    color: #F062C0;
 }
 
 #contact-model-large .modal-title {
@@ -249,7 +249,7 @@ p {
 }
 
 .model-btn {
-    border: 1px solid #A0F2EA;
+    border: 1px solid #F062C0;
     padding: 10px 20px !important;
 }
 
@@ -288,7 +288,7 @@ p {
     width: 25px;
     height: 25px;
     line-height: 25px;
-    background: #A0F2EA;
+    background: #F062C0;
     border-radius: 50%;
     text-align: center;
 }
@@ -324,7 +324,7 @@ p {
 }
 
 .logoss span {
-    color: #A0F2EA;
+    color: #F062C0;
 }
 
 .logoss:hover {
@@ -501,7 +501,7 @@ p {
 }
 
 .login-12 .bg-img .social-list li a:hover {
-    color: #A0F2EA;
+    color: #F062C0;
 }
 
 .login-12 .login-inner-form input[type=checkbox],
@@ -521,7 +521,7 @@ input[type=radio] {
 }
 
 .login-12 .login-inner-form .btn-theme {
-    background: #A0F2EA;
+    background: #F062C0;
     font-size: 18px;
     font-family: br;
     border: none;
@@ -582,8 +582,8 @@ input[type=radio] {
 }
 
 .login-12 .login-inner-form .checkbox-theme input[type="checkbox"]:checked + label::before {
-    background-color: #A0F2EA;
-    border-color: #A0F2EA;
+    background-color: #F062C0;
+    border-color: #F062C0;
 }
 
 .login-12 .login-inner-form input[type=checkbox]:checked + label:before {
@@ -601,7 +601,7 @@ input[type=radio] {
 
 .login-12 .login-inner-form .checkbox a {
     font-size: 14px;
-    color: #A0F2EA;
+    color: #F062C0;
     float: right;
 }
 
@@ -712,7 +712,7 @@ input[type=radio] {
 }
 
 .inner-page #inner-banner a {
-    color: #A0F2EA;
+    color: #F062C0;
     font-family: bb;
     font-size: 19px;
 }
@@ -752,7 +752,7 @@ input[type=radio] {
     width: 25px;
     height: 25px;
     line-height: 25px;
-    background: #A0F2EA;
+    background: #F062C0;
     color: black;
     position: absolute;
     top: 0;
@@ -764,8 +764,8 @@ input[type=radio] {
     width: 100%;
     font-size: 19px;
     font-family: bb;
-    background: #A0F2EA;
-    border: 1px solid #A0F2EA;
+    background: #F062C0;
+    border: 1px solid #F062C0;
     margin-top: 15px;
 }
 
@@ -836,7 +836,7 @@ input[type=radio] {
 }
 
 .navbar-light .navbar-brand span {
-    color: #A0F2EA;
+    color: #F062C0;
 }
 
 .navbar-light .navbar-nav .nav-link i {
@@ -858,7 +858,7 @@ input[type=radio] {
     height: 50px;
     line-height: 50px;
     text-align: center;
-    background: #A0F2EA;
+    background: #F062C0;
     color: #000;
     border-radius: 50%;
 }
@@ -878,7 +878,7 @@ input[type=radio] {
     border-radius: 50%;
     text-align: center;
     line-height: 20px;
-    background: #A0F2EA;
+    background: #F062C0;
     color: black;
     font-size: 13px;
     font-family: bb;
@@ -950,8 +950,8 @@ input[type=radio] {
     font-family: bb;
     margin-top: 61px;
     margin-left: -45px;
-    background: #A0F2EA;
-    border-color: #A0F2EA;
+    background: #F062C0;
+    border-color: #F062C0;
     border-radius: 0;
 }
 
@@ -966,8 +966,8 @@ input[type=radio] {
     top: 15px;
     right: 14px;
     color: #000;
-    background-color: #A0F2EA;
-    border-color: #A0F2EA;
+    background-color: #F062C0;
+    border-color: #F062C0;
     opacity: 1;
     padding: 5px 15px 10px 15px;
     font-size: 30px;
@@ -1016,7 +1016,7 @@ input[type=radio] {
 }
 
 .custom-menubar .menu-link:hover {
-    color: #A0F2EA;
+    color: #F062C0;
     cursor: pointer;
 }
 
@@ -1028,7 +1028,7 @@ input[type=radio] {
     position: absolute;
     right: 30px;
     top: 30px;
-    background: #A0F2EA;
+    background: #F062C0;
     line-height: 55px;
     border-radius: 50%;
     text-align: center;
@@ -1039,7 +1039,7 @@ input[type=radio] {
     width: 25px;
     height: 25px;
     line-height: 25px;
-    background: #A0F2EA;
+    background: #F062C0;
     border-radius: 50%;
     position: relative;
     top: -11px;
@@ -1063,7 +1063,7 @@ input[type=radio] {
     border-radius: 50%;
     text-align: center;
     line-height: 19px;
-    background: #A0F2EA;
+    background: #F062C0;
     color: black;
     font-size: 13px;
     font-family: bb;
@@ -1110,7 +1110,7 @@ input[type=radio] {
 }
 
 .backtotop:hover i {
-    background: #A0F2EA;
+    background: #F062C0;
     color: black;
 }
 
@@ -1121,10 +1121,10 @@ input[type=radio] {
 .banner-txt h3 {
     font-family: bb;
     font-size: 100px;
-    -webkit-text-stroke-color: #A0F2EA;
+    -webkit-text-stroke-color: #F062C0;
     -webkit-text-fill-color: #000;
     -webkit-text-stroke-width: 1px;
-    text-shadow: 2px 2px 0 #A0F2EA;
+    text-shadow: 2px 2px 0 #F062C0;
 }
 
 .banner-txt p {
@@ -1139,7 +1139,7 @@ input[type=radio] {
     color: black;
     font-size: 18px;
     font-family: bb;
-    background: #A0F2EA;
+    background: #F062C0;
     position: relative;
     overflow: hidden;
     -webkit-transition: all linear .3s;
@@ -1172,7 +1172,7 @@ input[type=radio] {
     left: 0;
     width: 200px;
     height: 200px;
-    background: #A0F2EA;
+    background: #F062C0;
     border-radius: 50%;
 }
 
@@ -1183,7 +1183,7 @@ input[type=radio] {
     left: -10px;
     width: 30px;
     height: 30px;
-    background: #A0F2EA;
+    background: #F062C0;
     border-radius: 50%;
 }
 
@@ -1192,7 +1192,7 @@ input[type=radio] {
     width: 90px;
     height: 90px;
     background: black;
-    color: #A0F2EA;
+    color: #F062C0;
     line-height: 94px;
     text-align: center;
     border-radius: 50%;
@@ -1206,7 +1206,7 @@ input[type=radio] {
 }
 
 .vid-btn i:hover {
-    background: #A0F2EA;
+    background: #F062C0;
     color: black;
 }
 
@@ -1366,7 +1366,7 @@ input[type=radio] {
 .game-box span {
     font-size: 19px;
     font-family: br;
-    color: #A0F2EA;
+    color: #F062C0;
     text-transform: uppercase;
     letter-spacing: 6px;
 }
@@ -1438,10 +1438,10 @@ input[type=radio] {
     font-size: 110px;
     font-family: bb;
     color: black;
-    -webkit-text-stroke-color: #A0F2EA;
+    -webkit-text-stroke-color: #F062C0;
     -webkit-text-fill-color: #000;
     -webkit-text-stroke-width: 1px;
-    text-shadow: 2px 2px 0 #A0F2EA;
+    text-shadow: 2px 2px 0 #F062C0;
     position: relative;
     padding-bottom: 8px;
 }
@@ -1454,7 +1454,7 @@ input[type=radio] {
     width: 30px;
     height: 2px;
     background: none;
-    border: 3px solid #A0F2EA;
+    border: 3px solid #F062C0;
 }
 
 .about-pt {
@@ -1468,7 +1468,7 @@ input[type=radio] {
 .about-txt span {
     font-size: 19px;
     font-family: br;
-    color: #A0F2EA;
+    color: #F062C0;
     text-transform: uppercase;
     letter-spacing: 6px;
 }
@@ -1483,7 +1483,7 @@ input[type=radio] {
 }
 
 .about-txt h3 b {
-    color: #A0F2EA;
+    color: #F062C0;
 }
 
 .about-txt p {
@@ -1518,7 +1518,7 @@ input[type=radio] {
     content: '';
     width: 80px;
     height: 225px;
-    background: #A0F2EA;
+    background: #F062C0;
     left: 11px;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -1528,7 +1528,7 @@ input[type=radio] {
 }
 
 .about-txt-overlay {
-    background: #A0F2EA;
+    background: #F062C0;
     width: 150px;
     height: 150px;
     padding: 7px 0;
@@ -1566,8 +1566,8 @@ input[type=radio] {
     width: 80px;
     height: 80px;
     line-height: 80px;
-    border: 3px solid #A0F2EA;
-    color: #A0F2EA;
+    border: 3px solid #F062C0;
+    color: #F062C0;
     border-radius: 50%;
     font-size: 29px;
 }
@@ -1587,7 +1587,7 @@ input[type=radio] {
 }
 
 .counter-item span b {
-    color: #A0F2EA;
+    color: #F062C0;
 }
 
 .counter-item p {
@@ -1622,7 +1622,7 @@ input[type=radio] {
 }
 
 .live-match-item:hover {
-    background: #A0F2EA;
+    background: #F062C0;
 }
 
 .live-match-item:hover h3,
@@ -1651,7 +1651,7 @@ input[type=radio] {
 
 .match-btn {
     font-family: bb;
-    color: #A0F2EA;
+    color: #F062C0;
     text-transform: uppercase;
     -webkit-transition: all linear .3s;
     -o-transition: all linear .3s;
@@ -1660,7 +1660,7 @@ input[type=radio] {
 
 .match-btn i {
     font-size: 9px;
-    color: #A0F2EA;
+    color: #F062C0;
     padding-left: 3px;
     -webkit-transition: all linear .3s;
     -o-transition: all linear .3s;
@@ -1736,7 +1736,7 @@ input[type=radio] {
     width: 90px;
     height: 90px;
     background: black;
-    color: #A0F2EA;
+    color: #F062C0;
     border-radius: 50%;
     text-align: center;
     line-height: 90px;
@@ -1747,7 +1747,7 @@ input[type=radio] {
 }
 
 .video-overlay a i:hover {
-    background: #A0F2EA;
+    background: #F062C0;
     color: black;
 }
 
@@ -1787,7 +1787,7 @@ input[type=radio] {
 }
 
 .player-info {
-    background: #A0F2EA;
+    background: #F062C0;
     width: 70%;
     height: 60px;
     position: relative;
@@ -1832,13 +1832,13 @@ input[type=radio] {
 }
 
 .player-txt h3 b {
-    color: #A0F2EA;
+    color: #F062C0;
 }
 
 .player-txt h4 {
     font-size: 62px;
     font-family: bb;
-    color: #A0F2EA;
+    color: #F062C0;
     padding-top: 7px;
     display: inline-block;
 }
@@ -1846,7 +1846,7 @@ input[type=radio] {
 .player-txt span {
     font-size: 62px;
     font-family: bb;
-    color: #A0F2EA;
+    color: #F062C0;
 }
 
 .player-txt p {
@@ -1890,7 +1890,7 @@ input[type=radio] {
 }
 
 .player-lightbox a i:hover {
-    color: #A0F2EA;
+    color: #F062C0;
 }
 
 .player-item:hover .player-lightbox {
@@ -1935,7 +1935,7 @@ input[type=radio] {
 }
 
 .product-btn {
-    color: #A0F2EA;
+    color: #F062C0;
     font-family: bb;
     font-size: 17px;
     text-transform: uppercase;
@@ -1943,14 +1943,14 @@ input[type=radio] {
 }
 
 .product-btn:hover {
-    color: #A0F2EA;
+    color: #F062C0;
 }
 
 .sale {
     width: 50px;
     height: 50px;
     line-height: 50px;
-    background: #A0F2EA;
+    background: #F062C0;
     text-align: center;
     border-radius: 50%;
     position: absolute;
@@ -1986,7 +1986,7 @@ input[type=radio] {
 .join-txt span {
     font-size: 18px;
     font-family: br;
-    color: #A0F2EA;
+    color: #F062C0;
     text-transform: uppercase;
     letter-spacing: 6px;
 }
@@ -2117,7 +2117,7 @@ input[type=radio] {
 
 .subscribe-btn {
     padding: 15px 20px;
-    color: #A0F2EA;
+    color: #F062C0;
     font-size: 18px;
     font-family: bb;
     background: black;
@@ -2143,7 +2143,7 @@ input[type=radio] {
 }
 
 .footer-logo a b {
-    color: #A0F2EA;
+    color: #F062C0;
 }
 
 .footer-logo p {
@@ -2176,7 +2176,7 @@ input[type=radio] {
 
 .footer-menu a:hover {
     padding-left: 4px;
-    color: #A0F2EA;
+    color: #F062C0;
 }
 
 .footer-social a i {
@@ -2196,7 +2196,7 @@ input[type=radio] {
 }
 
 .footer-social a i:hover {
-    background: #A0F2EA;
+    background: #F062C0;
 }
 
 /*===========================
