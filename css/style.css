@@ -1121,10 +1121,11 @@ input[type=radio] {
 .banner-txt h3 {
     font-family: bb;
     font-size: 100px;
-    -webkit-text-stroke-color: #F062C0;
+    line-height: 1;
+    /* -webkit-text-stroke-color: #F062C0; */
     -webkit-text-fill-color: #000;
     -webkit-text-stroke-width: 1px;
-    text-shadow: 2px 2px 0 #F062C0;
+    /* text-shadow: 2px 2px 0 #F062C0; */
 }
 
 .banner-txt p {
