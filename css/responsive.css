@@ -17,14 +17,6 @@
         padding: 20px 0;
     }
 
-    .nav-bg.navbar-light .navbar-brand {
-        padding-left: 15px;
-    }
-
-    .nav-bg .menu-icon i {
-        margin-right: 15px;
-    }
-
     .custom-menubar ul {
         top: 20%;
     }
@@ -78,14 +70,6 @@
 
     .nav-bg {
         padding: 20px 0;
-    }
-
-    .nav-bg.navbar-light .navbar-brand {
-        padding-left: 15px;
-    }
-
-    .nav-bg .menu-icon i {
-        margin-right: 15px;
     }
 
     .custom-menubar ul {
@@ -158,7 +142,7 @@
     }
 
     #banner {
-        padding: 120px 0 260px;
+        padding: 98px 0;
         text-align: center;
     }
 
@@ -389,10 +373,6 @@
 }
 
 @media(min-width:375px) and (max-width:575px) {
-    #banner {
-        padding: 130px 0 360px;
-    }
-
     .banner-img img {
         top: 335px;
         right: 0;
@@ -439,10 +419,6 @@
     .banner-img img {
         top: 410px;
         right: 0;
-    }
-
-    #banner {
-        padding: 140px 0 345px;
     }
 
     .banner-txt p {
@@ -583,7 +559,6 @@
 
 }
 
-
 @media(min-width:768px) and (max-width:991px) {
 
     .banner-arrow,
@@ -596,10 +571,6 @@
 
     .tab-m-auto {
         margin: 0 auto;
-    }
-
-    #banner {
-        padding: 130px 0 350px;
     }
 
     .banner-txt p {
@@ -726,10 +697,6 @@
 
     .custom-menubar ul li {
         margin: 0 25px;
-    }
-
-    #banner {
-        padding: 200px 0 80px;
     }
 
     .banner-txt h3 {

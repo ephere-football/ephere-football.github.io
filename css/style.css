@@ -817,7 +817,7 @@ input[type=radio] {
     -webkit-transition: all linear .3s;
     -o-transition: all linear .3s;
     transition: all linear .3s;
-    padding-top: 25px;
+    padding: 16px !important;
     background: transparent !important;
 }
 
@@ -892,7 +892,6 @@ input[type=radio] {
 
 .nav-bg {
     background: #e6e6e6 !important;
-    padding: 25px 0;
     -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
     box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
 }
@@ -1075,7 +1074,7 @@ input[type=radio] {
 2.0 *** BANNER AREA START ***
 =============================*/
 #banner {
-    padding: 220px 0 170px;
+    padding: 160px 0;
     background: #ebebeb;
     overflow-y: hidden;
     position: relative;
