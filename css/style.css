@@ -1119,7 +1119,7 @@ input[type=radio] {
 
 .banner-txt h3 {
     font-family: bb;
-    font-size: 72px;
+    font-size: 54px;
     line-height: 1;
     /* -webkit-text-stroke-color: #F062C0; */
     -webkit-text-fill-color: #000;
@@ -1430,6 +1430,7 @@ input[type=radio] {
 4.0 *** ABOUT AREA START ***
 =============================*/
 #about {
+    background: #ebebeb;
     padding: 80px 0;
     position: relative;
 }
@@ -1438,10 +1439,10 @@ input[type=radio] {
     font-size: 110px;
     font-family: bb;
     color: black;
-    -webkit-text-stroke-color: #F062C0;
+    /* -webkit-text-stroke-color: #F062C0; */
     -webkit-text-fill-color: #000;
     -webkit-text-stroke-width: 1px;
-    text-shadow: 2px 2px 0 #F062C0;
+    /* text-shadow: 2px 2px 0 #F062C0; */
     position: relative;
     padding-bottom: 8px;
 }
@@ -1773,7 +1774,6 @@ input[type=radio] {
 =============================*/
 #player {
     padding: 80px 0;
-    background: #ebebeb;
     position: relative;
 }
 
