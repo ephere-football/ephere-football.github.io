@@ -1500,10 +1500,6 @@ input[type=radio] {
 }
 
 .about-img img {
-    -webkit-clip-path: polygon(0 0, 89% 0, 100% 10%, 100% 100%, 9% 100%, 0 92%);
-    clip-path: polygon(0 0, 89% 0, 100% 10%, 100% 100%, 9% 100%, 0 92%);
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
     -webkit-transition: all linear .3s;
     -o-transition: all linear .3s;
     transition: all linear .3s;
@@ -1853,6 +1849,7 @@ input[type=radio] {
     font-family: br;
     font-size: 19px;
     color: #787878;
+    margin-bottom: 8px;
 }
 
 .player-img {
