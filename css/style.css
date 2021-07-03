@@ -1852,6 +1852,10 @@ input[type=radio] {
     margin-bottom: 8px;
 }
 
+.player-txt .row {
+    float: right;
+}
+
 .player-img {
     position: relative;
 }
