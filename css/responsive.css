@@ -1,5 +1,33 @@
 @media(max-width:991px) {
 
+    #about {
+        padding: 40px 0;
+    }
+
+    #banner {
+        padding: 80px 0;
+    }
+
+    #footer {
+        padding: 40px 0;
+    }
+
+    #player {
+        padding: 40px 0;
+    }
+
+    #product {
+        padding: 40px 0;
+    }
+
+    #product .product-pa {
+        padding: 0;
+    }
+
+    #subscribe {
+        padding: 40px 0 68px 0;
+    }
+
     .mobile-content-hide,
     .account-icon,
     .game-line::after,
@@ -25,8 +53,13 @@
         position: static !important;
     }
 
+    .banner-img::before,
     .banner-img::after {
         display: none;
+    }
+    
+    .banner-txt h3 {
+        text-align: center;
     }
 
     .custom-menubar ul {
@@ -39,6 +72,15 @@
 
     .custom-menubar .nav-link-block li {
         display: block;
+    }
+
+    .join-img {
+        text-align: center;
+    }
+
+    .join-img img {
+        max-width: 100%;
+        position: static;
     }
 
     .menu-close a i {
@@ -74,9 +116,7 @@
     .banner-arrow,
     .follow-us,
     #banner .vid-btn i,
-    .video-txt-overlay,
-    .join-img img,
-    .join-txt p {
+    .video-txt-overlay {
         display: none;
     }
 
@@ -181,10 +221,6 @@
         margin-bottom: 55px;
     }
 
-    #about {
-        padding: 65px 0;
-    }
-
     .heading h3::before {
         left: 50%;
         border: 2px solid #454BBF;
@@ -194,7 +230,7 @@
     }
 
     .heading h3 {
-        font-size: 85px;
+        font-size: 42px;
         text-align: center;
     }
 
@@ -284,6 +320,10 @@
         padding-top: 50px;
     }
 
+    .player-txt {
+        text-align: center;
+    }
+
     .player-txt h3 {
         font-size: 28px;
         padding: 0;
@@ -298,10 +338,6 @@
 
     .player-txt .row {
         float: none;
-    }
-
-    #product {
-        padding: 80px 0 70px;
     }
 
     .join-bg {
@@ -326,20 +362,12 @@
         padding-top: 65px;
     }
 
-    #subscribe {
-        padding: 70px 0 110px;
-    }
-
     .subscribe-txt {
         text-align: center;
     }
 
     .subscribe-txt h3 {
         font-size: 31px;
-    }
-
-    #footer {
-        padding: 60px 0;
     }
 
     .footer-logo p {
@@ -403,8 +431,7 @@
     .follow-us,
     .vid-btn i,
     .landscape-hide,
-    .video-txt-overlay,
-    .join-img img {
+    .video-txt-overlay {
         display: none;
     }
 
@@ -504,7 +531,6 @@
     }
 
     .player-txt h3 {
-        text-align: center;
         padding-right: 0;
     }
 
@@ -540,10 +566,6 @@
         text-align: center;
     }
 
-    #subscribe {
-        padding: 60px 0 115px;
-    }
-
     .footer-menu h3 {
         margin-top: 40px;
     }
@@ -559,8 +581,7 @@
     .banner-arrow,
     .vid-btn i,
     .follow-us,
-    .tablet-hide,
-    .join-img img {
+    .tablet-hide {
         display: none;
     }
 
@@ -645,20 +666,12 @@
         opacity: 1;
     }
 
-    .player-txt {
-        text-align: center;
-    }
-
     .player-txt h3 {
         padding: 5px 90px 15px 90px;
     }
 
     .sale {
         right: 65px;
-    }
-
-    .join-txt p {
-        padding-right: 99px;
     }
 
     #join {
