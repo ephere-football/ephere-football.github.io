@@ -293,11 +293,6 @@
         } else {
             $(stikey).removeClass("nav-bg");
         }
-        if (scrolling > 180) {
-            $('.backtotop').fadeIn(500);
-        } else {
-            $('.backtotop').fadeOut(500);
-        }
     });
     //scorllspy js
     $('body').scrollspy({

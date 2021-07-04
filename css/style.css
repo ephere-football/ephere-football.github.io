@@ -133,7 +133,7 @@ p {
 }
 
 .loader-box {
-    color: #F062C0;
+    color: #454BBF;
     -webkit-animation-duration: 3s;
     animation-duration: 3s;
     width: 44px;
@@ -152,7 +152,7 @@ p {
 
 .loader-box svg rect {
     fill: none;
-    stroke: #F062C0;
+    stroke: #454BBF;
     stroke-width: 10px;
     stroke-linejoin: round;
     stroke-linecap: round;
@@ -217,7 +217,7 @@ p {
 }
 
 .modal-title b {
-    color: #F062C0;
+    color: #454BBF;
 }
 
 #contact-model-large .modal-title {
@@ -249,7 +249,7 @@ p {
 }
 
 .model-btn {
-    border: 1px solid #F062C0;
+    border: 1px solid #454BBF;
     padding: 10px 20px !important;
 }
 
@@ -288,7 +288,7 @@ p {
     width: 25px;
     height: 25px;
     line-height: 25px;
-    background: #F062C0;
+    background: #454BBF;
     border-radius: 50%;
     text-align: center;
 }
@@ -324,7 +324,7 @@ p {
 }
 
 .logoss span {
-    color: #F062C0;
+    color: #454BBF;
 }
 
 .logoss:hover {
@@ -501,7 +501,7 @@ p {
 }
 
 .login-12 .bg-img .social-list li a:hover {
-    color: #F062C0;
+    color: #454BBF;
 }
 
 .login-12 .login-inner-form input[type=checkbox],
@@ -521,7 +521,7 @@ input[type=radio] {
 }
 
 .login-12 .login-inner-form .btn-theme {
-    background: #F062C0;
+    background: #454BBF;
     font-size: 18px;
     font-family: br;
     border: none;
@@ -529,7 +529,7 @@ input[type=radio] {
 }
 
 .login-12 .login-inner-form .btn-theme:hover {
-    background: #bf000a;
+    background: #242CBF;
     -webkit-box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
 }
@@ -582,8 +582,8 @@ input[type=radio] {
 }
 
 .login-12 .login-inner-form .checkbox-theme input[type="checkbox"]:checked + label::before {
-    background-color: #F062C0;
-    border-color: #F062C0;
+    background-color: #454BBF;
+    border-color: #454BBF;
 }
 
 .login-12 .login-inner-form input[type=checkbox]:checked + label:before {
@@ -601,7 +601,7 @@ input[type=radio] {
 
 .login-12 .login-inner-form .checkbox a {
     font-size: 14px;
-    color: #F062C0;
+    color: #454BBF;
     float: right;
 }
 
@@ -712,7 +712,7 @@ input[type=radio] {
 }
 
 .inner-page #inner-banner a {
-    color: #F062C0;
+    color: #454BBF;
     font-family: bb;
     font-size: 19px;
 }
@@ -752,7 +752,7 @@ input[type=radio] {
     width: 25px;
     height: 25px;
     line-height: 25px;
-    background: #F062C0;
+    background: #454BBF;
     color: black;
     position: absolute;
     top: 0;
@@ -764,14 +764,14 @@ input[type=radio] {
     width: 100%;
     font-size: 19px;
     font-family: bb;
-    background: #F062C0;
-    border: 1px solid #F062C0;
+    background: #454BBF;
+    border: 1px solid #454BBF;
     margin-top: 15px;
 }
 
 .inner-page .coupon-btn:hover {
-    background: #bf000a;
-    border: 1px solid #bf000a;
+    background: #242CBF;
+    border: 1px solid #242CBF;
 }
 
 .inner-page .checkout-box {
@@ -836,12 +836,12 @@ input[type=radio] {
 }
 
 .navbar-light .navbar-brand span {
-    color: #F062C0;
+    color: #454BBF;
 }
 
 .navbar-light .navbar-nav .nav-link i {
     font-size: 16px;
-    color: black;
+    color: white;
     margin-left: 22px;
 }
 
@@ -858,8 +858,8 @@ input[type=radio] {
     height: 50px;
     line-height: 50px;
     text-align: center;
-    background: #F062C0;
-    color: #000;
+    background: #454BBF;
+    color: white;
     border-radius: 50%;
 }
 
@@ -878,7 +878,7 @@ input[type=radio] {
     border-radius: 50%;
     text-align: center;
     line-height: 20px;
-    background: #F062C0;
+    background: #454BBF;
     color: black;
     font-size: 13px;
     font-family: bb;
@@ -949,8 +949,8 @@ input[type=radio] {
     font-family: bb;
     margin-top: 61px;
     margin-left: -45px;
-    background: #F062C0;
-    border-color: #F062C0;
+    background: #454BBF;
+    border-color: #454BBF;
     border-radius: 0;
 }
 
@@ -965,8 +965,8 @@ input[type=radio] {
     top: 15px;
     right: 14px;
     color: #000;
-    background-color: #F062C0;
-    border-color: #F062C0;
+    background-color: #454BBF;
+    border-color: #454BBF;
     opacity: 1;
     padding: 5px 15px 10px 15px;
     font-size: 30px;
@@ -1015,7 +1015,7 @@ input[type=radio] {
 }
 
 .custom-menubar .menu-link:hover {
-    color: #F062C0;
+    color: #454BBF;
     cursor: pointer;
 }
 
@@ -1027,7 +1027,7 @@ input[type=radio] {
     position: absolute;
     right: 30px;
     top: 30px;
-    background: #F062C0;
+    background: #454BBF;
     line-height: 55px;
     border-radius: 50%;
     text-align: center;
@@ -1038,7 +1038,7 @@ input[type=radio] {
     width: 25px;
     height: 25px;
     line-height: 25px;
-    background: #F062C0;
+    background: #454BBF;
     border-radius: 50%;
     position: relative;
     top: -11px;
@@ -1062,7 +1062,7 @@ input[type=radio] {
     border-radius: 50%;
     text-align: center;
     line-height: 19px;
-    background: #F062C0;
+    background: #454BBF;
     color: black;
     font-size: 13px;
     font-family: bb;
@@ -1089,30 +1089,6 @@ input[type=radio] {
     display: none;
 }
 
-.backtotop i {
-    color: #000;
-    text-align: center;
-    font-size: 21px;
-    line-height: 60px;
-    width: 60px;
-    height: 60px;
-    background: rgba(29, 29, 29, 0.8);
-    border-radius: 50%;
-    -webkit-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    transition: all linear .3s;
-
-}
-
-.backtotop:hover {
-    cursor: pointer;
-}
-
-.backtotop:hover i {
-    background: #F062C0;
-    color: black;
-}
-
 .banner-item {
     padding-bottom: 15px;
 }
@@ -1121,10 +1097,10 @@ input[type=radio] {
     font-family: bb;
     font-size: 54px;
     line-height: 1;
-    /* -webkit-text-stroke-color: #F062C0; */
+    /* -webkit-text-stroke-color: #454BBF; */
     -webkit-text-fill-color: #000;
     -webkit-text-stroke-width: 1px;
-    /* text-shadow: 2px 2px 0 #F062C0; */
+    /* text-shadow: 2px 2px 0 #454BBF; */
 }
 
 .banner-txt p {
@@ -1136,10 +1112,10 @@ input[type=radio] {
 
 .main-btn {
     padding: 15px 20px;
-    color: black;
+    color: white;
     font-size: 18px;
     font-family: bb;
-    background: #F062C0;
+    background: #454BBF;
     position: relative;
     overflow: hidden;
     -webkit-transition: all linear .3s;
@@ -1150,8 +1126,8 @@ input[type=radio] {
 }
 
 .main-btn:hover {
-    color: #000;
-    background: #bf000a;
+    color: white;
+    background: #242CBF;
     cursor: pointer;
 }
 
@@ -1172,7 +1148,7 @@ input[type=radio] {
     left: 0;
     width: 200px;
     height: 200px;
-    background: #F062C0;
+    background: #454BBF;
     border-radius: 50%;
 }
 
@@ -1183,7 +1159,7 @@ input[type=radio] {
     left: -10px;
     width: 30px;
     height: 30px;
-    background: #F062C0;
+    background: #454BBF;
     border-radius: 50%;
 }
 
@@ -1192,7 +1168,7 @@ input[type=radio] {
     width: 90px;
     height: 90px;
     background: black;
-    color: #F062C0;
+    color: #454BBF;
     line-height: 94px;
     text-align: center;
     border-radius: 50%;
@@ -1206,7 +1182,7 @@ input[type=radio] {
 }
 
 .vid-btn i:hover {
-    background: #F062C0;
+    background: #454BBF;
     color: black;
 }
 
@@ -1366,7 +1342,7 @@ input[type=radio] {
 .game-box span {
     font-size: 19px;
     font-family: br;
-    color: #F062C0;
+    color: #454BBF;
     text-transform: uppercase;
     letter-spacing: 6px;
 }
@@ -1439,10 +1415,10 @@ input[type=radio] {
     font-size: 72px;
     font-family: bb;
     color: black;
-    /* -webkit-text-stroke-color: #F062C0; */
+    /* -webkit-text-stroke-color: #454BBF; */
     -webkit-text-fill-color: #000;
     -webkit-text-stroke-width: 1px;
-    /* text-shadow: 2px 2px 0 #F062C0; */
+    /* text-shadow: 2px 2px 0 #454BBF; */
     position: relative;
     padding-bottom: 8px;
 }
@@ -1455,7 +1431,7 @@ input[type=radio] {
     width: 30px;
     height: 2px;
     background: none;
-    border: 3px solid #F062C0;
+    border: 3px solid #454BBF;
 }
 
 .about-pt {
@@ -1469,7 +1445,7 @@ input[type=radio] {
 .about-txt span {
     font-size: 19px;
     font-family: br;
-    color: #F062C0;
+    color: #454BBF;
     text-transform: uppercase;
     letter-spacing: 6px;
 }
@@ -1484,7 +1460,7 @@ input[type=radio] {
 }
 
 .about-txt h3 b {
-    color: #F062C0;
+    color: #454BBF;
 }
 
 .about-txt p {
@@ -1515,7 +1491,7 @@ input[type=radio] {
     content: '';
     width: 80px;
     height: 225px;
-    background: #F062C0;
+    background: #454BBF;
     left: 11px;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -1525,7 +1501,7 @@ input[type=radio] {
 }
 
 .about-txt-overlay {
-    background: #F062C0;
+    background: #454BBF;
     width: 150px;
     height: 150px;
     padding: 7px 0;
@@ -1563,8 +1539,8 @@ input[type=radio] {
     width: 80px;
     height: 80px;
     line-height: 80px;
-    border: 3px solid #F062C0;
-    color: #F062C0;
+    border: 3px solid #454BBF;
+    color: #454BBF;
     border-radius: 50%;
     font-size: 29px;
 }
@@ -1584,7 +1560,7 @@ input[type=radio] {
 }
 
 .counter-item span b {
-    color: #F062C0;
+    color: #454BBF;
 }
 
 .counter-item p {
@@ -1619,7 +1595,7 @@ input[type=radio] {
 }
 
 .live-match-item:hover {
-    background: #F062C0;
+    background: #454BBF;
 }
 
 .live-match-item:hover h3,
@@ -1648,7 +1624,7 @@ input[type=radio] {
 
 .match-btn {
     font-family: bb;
-    color: #F062C0;
+    color: #454BBF;
     text-transform: uppercase;
     -webkit-transition: all linear .3s;
     -o-transition: all linear .3s;
@@ -1657,7 +1633,7 @@ input[type=radio] {
 
 .match-btn i {
     font-size: 9px;
-    color: #F062C0;
+    color: #454BBF;
     padding-left: 3px;
     -webkit-transition: all linear .3s;
     -o-transition: all linear .3s;
@@ -1733,7 +1709,7 @@ input[type=radio] {
     width: 90px;
     height: 90px;
     background: black;
-    color: #F062C0;
+    color: #454BBF;
     border-radius: 50%;
     text-align: center;
     line-height: 90px;
@@ -1744,7 +1720,7 @@ input[type=radio] {
 }
 
 .video-overlay a i:hover {
-    background: #F062C0;
+    background: #454BBF;
     color: black;
 }
 
@@ -1783,7 +1759,7 @@ input[type=radio] {
 }
 
 .player-info {
-    background: #F062C0;
+    background: #454BBF;
     width: 70%;
     height: 60px;
     position: relative;
@@ -1828,13 +1804,13 @@ input[type=radio] {
 }
 
 .player-txt h3 b {
-    color: #F062C0;
+    color: #454BBF;
 }
 
 .player-txt h4 {
     font-size: 62px;
     font-family: bb;
-    color: #F062C0;
+    color: #454BBF;
     padding-top: 7px;
     display: inline-block;
 }
@@ -1842,7 +1818,7 @@ input[type=radio] {
 .player-txt span {
     font-size: 62px;
     font-family: bb;
-    color: #F062C0;
+    color: #454BBF;
 }
 
 .player-txt p {
@@ -1891,7 +1867,7 @@ input[type=radio] {
 }
 
 .player-lightbox a i:hover {
-    color: #F062C0;
+    color: #454BBF;
 }
 
 .player-item:hover .player-lightbox {
@@ -1936,7 +1912,7 @@ input[type=radio] {
 }
 
 .product-btn {
-    color: #F062C0;
+    color: #454BBF;
     font-family: bb;
     font-size: 17px;
     text-transform: uppercase;
@@ -1944,14 +1920,14 @@ input[type=radio] {
 }
 
 .product-btn:hover {
-    color: #F062C0;
+    color: #454BBF;
 }
 
 .sale {
     width: 50px;
     height: 50px;
     line-height: 50px;
-    background: #F062C0;
+    background: #454BBF;
     text-align: center;
     border-radius: 50%;
     position: absolute;
@@ -1987,7 +1963,7 @@ input[type=radio] {
 .join-txt span {
     font-size: 18px;
     font-family: br;
-    color: #F062C0;
+    color: #454BBF;
     text-transform: uppercase;
     letter-spacing: 6px;
 }
@@ -2089,42 +2065,27 @@ input[type=radio] {
 =============================*/
 #subscribe {
     padding: 80px 0;
-    background: url(../images/subscribe.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: #454BBF;
     position: relative;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-}
-
-#subscribe:after {
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(230, 230, 230, 0.5);
 }
 
 .subscribe-txt h3 {
     font-size: 38px;
     font-family: bb;
-    color: black;
+    color: white;
     text-transform: uppercase;
     line-height: 52px;
 }
 
 .subscribe-btn {
     padding: 15px 20px;
-    color: #F062C0;
+    color: black;
     font-size: 18px;
     font-family: bb;
-    background: black;
+    background: #A0F2EA;
     position: relative;
     border-radius: 50px;
-    top: 39px;
+    top: 13px;
     text-transform: uppercase;
 }
 
@@ -2144,7 +2105,7 @@ input[type=radio] {
 }
 
 .footer-logo a b {
-    color: #F062C0;
+    color: #454BBF;
 }
 
 .footer-logo p {
@@ -2177,13 +2138,13 @@ input[type=radio] {
 
 .footer-menu a:hover {
     padding-left: 4px;
-    color: #F062C0;
+    color: #454BBF;
 }
 
 .footer-social a i {
     font-size: 16px;
-    color: black;
-    background: #262525;
+    color: white;
+    background: #454BBF;
     width: 45px;
     height: 45px;
     line-height: 46px;
@@ -2197,7 +2158,7 @@ input[type=radio] {
 }
 
 .footer-social a i:hover {
-    background: #F062C0;
+    background: #454BBF;
 }
 
 /*===========================

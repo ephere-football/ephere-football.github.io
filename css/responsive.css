@@ -17,11 +17,6 @@
         padding: 20px 0;
     }
 
-    #banner {
-        padding: 98px 0;
-        text-align: center;
-    }
-
     .banner-img {
         margin-bottom: 16px;
     }
@@ -192,7 +187,7 @@
 
     .heading h3::before {
         left: 50%;
-        border: 2px solid #F062C0;
+        border: 2px solid #454BBF;
         -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
         transform: translateX(-50%);
