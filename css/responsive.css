@@ -47,15 +47,38 @@
 
     .banner-img {
         margin-bottom: 16px;
+        overflow: hidden;
     }
 
     .banner-img img {
-        position: static !important;
+        max-width: 160%;
+        left: -30%;
+        position: relative;
     }
 
-    .banner-img::before,
+    .banner-img::before {
+        content: "";
+        display: block;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 16px;
+        background: rgb(230,230,230);
+        background: linear-gradient(-90deg, rgba(230,230,230,0) 0%, rgba(230,230,230,1) 100%);
+        position: absolute;
+        z-index: 1;
+    }
+
     .banner-img::after {
-        display: none;
+        content: "";
+        display: block;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 16px;
+        background: rgb(230,230,230);
+        background: linear-gradient(90deg, rgba(230,230,230,0) 0%, rgba(230,230,230,1) 100%);
+        position: absolute;
     }
     
     .banner-txt h3 {
@@ -199,10 +222,6 @@
 
     .banner-txt p {
         padding: 30px 0 30px 0;
-    }
-
-    .banner-img::before {
-        display: none;
     }
 
     #games {
@@ -449,22 +468,6 @@
         text-align: center;
     }
 
-    .banner-img::after {
-        top: 535px;
-        left: 50%;
-        width: 300px;
-        height: 300px;
-        border-radius: 50%;
-        -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-        transform: translateX(-50%);
-    }
-
-    .banner-img::before {
-        top: 510px;
-        left: 35px;
-    }
-
     .banner-txt p {
         padding: 30px 20px 40px 20px;
     }
@@ -594,21 +597,6 @@
         right: 0;
     }
 
-    .banner-img::after {
-        top: 560px;
-        left: 50%;
-        width: 350px;
-        height: 350px;
-        -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-        transform: translateX(-50%);
-    }
-
-    .banner-img::before {
-        top: 530px;
-        left: 25px;
-    }
-
     .banner-item {
         text-align: center;
     }
@@ -705,15 +693,6 @@
 
     .banner-txt h3 {
         font-size: 87px;
-    }
-
-    .banner-img::after {
-        left: 85px;
-    }
-
-    .banner-img::before {
-        top: -30px;
-        left: 85px;
     }
 
     .follow-us {
