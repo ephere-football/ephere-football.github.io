@@ -261,7 +261,7 @@
 
     // preloader
     $(window).on('load', function () {
-        $('.preloader').delay(1000).fadeOut(1000);
+        $('.preloader').delay(100).fadeOut(1000);
 
     });
     // Closes responsive menu when a scroll link is clicked
