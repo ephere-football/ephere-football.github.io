@@ -1673,11 +1673,6 @@ input[type=radio] {
     padding-top: 70px;
 }
 
-.player-item img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-}
-
 .player-info {
     background: #454BBF;
     width: 70%;
