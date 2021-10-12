@@ -77,13 +77,14 @@ ul {
 
 /* start header */
 .header {
-    padding-bottom: 364px;
+    padding-top: 24px;
+    padding-bottom: 540px;
     background: url(../images/header-bg.png);
     background-position: center bottom;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
-@media (max-width: 1199.98px) {
+/* @media (max-width: 1199.98px) {
     .header {
         padding-bottom: 305px;
     }
@@ -103,10 +104,7 @@ ul {
         background-size: cover;
         padding-bottom: 300px;
     }
-}
-.header {
-    padding-top: 48px;
-}
+} */
 .header .container {
     display: flex;
     align-items: center;
