@@ -248,6 +248,13 @@ ul {
     color: white;
     font-size: 24px;
 }
+.links {
+    list-style: none;
+    display: flex;
+}
+.links li {
+    margin-left: 16px;
+}
 .countdown .buy_train-box .learn-more {
     letter-spacing: 0.03em;
     font-size: 44px;
