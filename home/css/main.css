@@ -1047,6 +1047,15 @@ ul {
 
 .join-us {
     position: relative;
-    top: -32px;
+    top: -2vw;
     text-align: center;
+}
+
+.join-us .btn {
+    background: #F062C0;
+    border-color: #F062C0;
+    box-shadow: 1px 1px #F062C0;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
 }
