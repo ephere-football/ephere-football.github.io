@@ -16,7 +16,7 @@
     "url": "https://github.com/ephere-io/ephere-io.github.io/issues"
   },
   "homepage": "https://github.com/ephere-io/ephere-io.github.io#readme",
-  "devDependencies": {
+  "dependencies": {
     "http-server": "^0.12.3"
   }
 }

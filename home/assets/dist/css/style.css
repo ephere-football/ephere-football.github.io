@@ -1,0 +1,508 @@
+html,
+body {
+	height         : 100%;
+	overflow       : auto;
+	scroll-behavior: smooth;
+	color          : white;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: #CFA2E4;
+}
+
+.back-to-top {
+	position: fixed;
+	bottom  : 25px;
+	right   : 25px;
+	display : none;
+}
+
+.navbar {
+	padding-top: 2rem;
+	margin     : auto;
+}
+
+#video {
+	background: url(img/bgvideo_grande.png) center center black;
+}
+
+#video #ytvideo {
+	height: 100vh;
+}
+
+.btn {
+	color         : #ffffff;
+	border-color  : #ffffff;
+	margin-top    : 8px;
+	font-family   : 'Hanson';
+	text-transform: uppercase;
+}
+
+.btn:hover {
+	color           : #000;
+	background-color: #CFA2E4 !important;
+	border-color    : #fff !important;
+}
+
+#slidertopo .texttop {
+	padding-top: 6%;
+}
+
+#slidertopo .texttop h1 {
+	font-family: 'Hanson';
+	font-weight: normal;
+	font-style : normal;
+	color      : #fff;
+	font-size  : 2em;
+	text-align : center;
+	text-shadow: 2px 2px 3px #000;
+}
+
+#slidertopo .texttop {
+	text-align: center;
+}
+
+#nfts {
+	background         : url(img/main.png) fixed 100px center no-repeat;
+	background-size    : auto;
+	position           : relative;
+	margin             : 0;
+	padding            : 0;
+	background-position: center -53px;
+	flex-direction     : column;
+	align-items        : center;
+	justify-content    : center;
+}
+
+#nfts .container-fluid {
+	display        : flex;
+	align-items    : center;
+	justify-content: center;
+}
+
+#nfts .container {
+	max-width: 600px;
+
+}
+
+#nfts .texttop h1 {
+	font-family: 'Hanson';
+	font-weight: normal;
+	font-style : normal;
+	color      : #fff;
+	font-size  : 2em;
+	text-align : center;
+}
+
+#nfts .texttop h2 {
+	font-family: 'Avenir LT Std';
+	font-weight: normal;
+	font-style : normal;
+	color      : #fff;
+	font-size  : 16px;
+	text-align : center;
+}
+
+#nfts .texttop {
+	text-align: center;
+}
+
+#team .person {
+	padding: 0px;
+}
+
+#team .p1 {
+	background: #CFA2E4;
+}
+
+#team .p2 {
+	background: #efefef;
+}
+
+#team .p3 {
+	background: #CFA2E4;
+}
+
+#team .p4 {
+	background: #efefef;
+}
+
+#team .p5 {
+	background: #CFA2E4;
+}
+
+#team .p6 {
+	background: #efefef;
+}
+
+#team .p7 {
+	background: #CFA2E4;
+}
+
+#team .p8 {
+	background: #efefef;
+}
+
+#team .p9 {
+	background: #CFA2E4;
+}
+
+#team .p10 {
+	background: #efefef;
+}
+
+#team .p11 {
+	background: #CFA2E4;
+}
+
+#team .p12 {
+	background: #efefef;
+}
+
+#personalize {
+	background         : url(img/bgvideo_grande.png) center center black;
+	position           : relative;
+	overflow           : hidden;
+	background-position: center 1112px;
+	flex-direction     : column;
+	align-items        : center;
+	justify-content    : center;
+}
+
+#personalize .texttop h2 {
+	font-family: 'Hanson';
+	font-weight: normal;
+	font-style : normal;
+	color      : #fff;
+	font-size  : 1.5em;
+}
+
+#personalize .texttop h3 {
+	font-family: 'Avenir LT Std';
+	font-weight: normal;
+	font-style : normal;
+	color      : #fff;
+	font-size  : 16px;
+}
+
+#personalize .texttop {
+	text-align: center;
+}
+
+#faq {
+	position           : relative;
+	overflow           : hidden;
+	background-position: center 1112px;
+	flex-direction     : column;
+	align-items        : center;
+	justify-content    : center;
+}
+
+#faq .texttop h1 {
+	font-family   : 'Hanson';
+	font-weight   : normal;
+	font-style    : normal;
+	color         : #fff;
+	font-size     : 2em;
+	text-transform: uppercase;
+}
+
+#faq .texttop h2 {
+	font-family   : 'Hanson';
+	font-weight   : normal;
+	font-style    : normal;
+	color         : #110a26;
+	font-size     : 1.2em;
+	text-transform: uppercase;
+}
+
+#faq .texttop p {
+	font-family: 'Avenir LT Std';
+	font-weight: normal;
+	font-style : normal;
+	color      : #110a26;
+	font-size  : 16px;
+}
+
+#faq .texttop p:last-child {
+	margin: 0;
+}
+
+#faq .texttop {
+	text-align: center;
+}
+
+#faq .texttop .faqs {
+	background   : #CFA2E4 !important;
+	border-radius: .25rem;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+	color: #ffffff;
+}
+
+.nav-link {
+	color         : #fff;
+	font-family   : 'Avenir LT Std';
+	font-weight   : lighter;
+	font-style    : normal;
+	text-transform: uppercase;
+}
+
+.navbar .navbar-nav {
+	margin-left : auto;
+	margin-right: 0;
+}
+
+.navbar .navbar-nav .nav-link {
+	color    : #ffffff;
+	font-size: 16px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+	color: #CFA2E4;
+}
+
+#top {
+	background         : url(img/slider.png) no-repeat;
+	background         : url(img/slider.webp) no-repeat;
+	background-color   : #000000;
+	background-position: bottom;
+	background-size    : cover;
+	height             : 625px;
+	position           : relative;
+	overflow           : hidden;
+	flex-direction     : column;
+	align-items        : center;
+	justify-content    : center;
+}
+
+#footer {
+	background         : #000000;
+	height             : auto;
+	position           : relative;
+	overflow           : hidden;
+	background-position: center;
+}
+
+#footer p {
+	font-family: 'Avenir LT Std';
+	font-size  : 0.8em;
+	color      : #FFF;
+	margin     : 0 auto;
+	text-shadow: 1px 1px 2px #000;
+}
+
+#footer #followus {
+	width          : 100%;
+	margin         : 0 auto 24px auto;
+	display        : flex;
+	flex-direction : row;
+	justify-content: center;
+	align-items    : center;
+}
+
+#footer #followus li {
+	float       : left;
+	padding-left: 30px;
+	list-style  : none;
+	text-align  : center;
+}
+
+#footer #followus .first {
+	float       : left;
+	padding-left: 0px !important;
+	list-style  : none;
+	text-align  : center;
+}
+
+#footer h1 {
+	font-family   : 'Hanson';
+	font-weight   : normal;
+	font-style    : normal;
+	color         : #fff;
+	font-size     : 1.5em;
+	text-align    : center;
+	text-transform: uppercase;
+}
+
+.navbar .nav-item .nav-link {
+	color      : #fff;
+	font-weight: 600;
+}
+
+#links {
+	list-style: none;
+}
+
+#links a {
+	text-transform : uppercase;
+	text-decoration: none;
+}
+
+#links a:hover {
+	color: #CFA2E4;
+}
+
+.logo {
+	position: relative;
+	top     : -8px;
+}
+
+.cover-container {
+	max-width: 100vw;
+	margin   : 0;
+}
+
+@media (max-width: 575.98px) {
+	body {
+		font-size: 14px;
+	}
+
+	.navbar {
+		max-width: 100%;
+		padding  : 1rem;
+	}
+
+	#video #ytvideo {
+		/* height: 258px; */
+		padding: 0;
+	}
+
+	#video {
+		padding   : 35px 0 30px 0;
+		background: black;
+		height    : 360px !important;
+	}
+
+	#slidertopo .texttop {
+		padding-top   : 10%;
+		padding-bottom: 83px;
+	}
+
+	#slidertopo .texttop h1 {
+		font-family: 'Hanson';
+		font-weight: normal;
+		font-style : normal;
+		color      : #fff;
+		font-size  : 2em;
+		text-align : center;
+		text-shadow: 2px 2px 3px #000;
+	}
+
+	#faq .texttop .faqs {
+		margin-top : 20px;
+		padding    : 26px;
+		padding-top: 31px;
+	}
+
+	#nfts {
+		background         : url(img/mobile_bg.png) 100px center;
+		background-size    : cover;
+		position           : relative;
+		overflow           : hidden;
+		background-position: top center;
+		flex-direction     : column;
+		align-items        : center;
+		justify-content    : center;
+
+	}
+
+	#nfts .texttop h2 {
+		font-family: 'Avenir LT Std';
+		font-weight: normal;
+		font-style : normal;
+		color      : #fff;
+		text-align : center;
+	}
+
+	#nfts .texttop h1 {
+		font-family: 'Hanson';
+		font-weight: normal;
+		font-style : normal;
+		color      : #fff;
+		text-align : center;
+	}
+
+	#top {
+		background         : url(img/slider.png);
+		background         : url(img/slider.webp);
+		/* position        : relative; */
+		/* overflow        : hidden; */
+		background-repeat  : no-repeat;
+		/* background-size : contain; */
+		background-position: center;
+		background-repeat  : no-repeat;
+		background-position: center;
+		background-position: center;
+		/* display         : flex;*/
+		height             : auto;
+		background-repeat  : no-repeat;
+		background-size    : cover;
+		background-position: center;
+		padding-bottom     : 179px;
+		flex-direction     : column;
+		align-items        : center;
+		justify-content    : center;
+	}
+}
+
+@media (max-width: 767.98px) {  }
+
+@media (max-width: 1199.98px) {
+}
+
+@media (max-width: 1399.98px) {
+	#team .p1 {
+		background: #CFA2E4;
+	}
+	
+	#team .p2 {
+		background: #efefef;
+	}
+	
+	#team .p3 {
+		background: #CFA2E4;
+	}
+	
+	#team .p4 {
+		background: #efefef;
+	}
+	
+	#team .p5 {
+		background: #CFA2E4;
+	}
+	
+	#team .p6 {
+		background: #efefef;
+	}
+	
+	#team .p7 {
+		background: #efefef;
+	}
+	
+	#team .p8 {
+		background: #CFA2E4;
+	}
+	
+	#team .p9 {
+		background: #efefef;
+	}
+	
+	#team .p10 {
+		background: #CFA2E4;
+	}
+	
+	#team .p11 {
+		background: #efefef;
+	}
+	
+	#team .p12 {
+		background: #CFA2E4;
+	}
+}
