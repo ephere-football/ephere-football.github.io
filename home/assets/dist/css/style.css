@@ -119,9 +119,9 @@ html, body {
 				#faq .texttop .btn { font-family: 'Avenir LT Std';  border: 2px solid #fff; font-family: ;
 					padding: 0.475rem 1.5rem; border-radius: 0.9rem; margin-top: 10px;}
 		
-					#faq .texttop .faqs { margin-top: 20px; padding: 30px; background: #cfa2e3 !important;}
-					#faq .texttop .faqs-primeiro { margin: 0px 0 0px 0; padding: 30px;  background: #cfa2e3 !important;  }
-					#faq .texttop .faqs-ultimo { margin: 20px 0 20px 0; padding: 30px; background: #cfa2e3 !important;}
+					#faq .texttop .faqs { margin-top: 20px; padding: 30px; background: #cfa2e3 !important; border-radius: 3px;}
+					#faq .texttop .faqs-primeiro { margin: 0px 0 0px 0; padding: 30px;  background: #cfa2e3 !important; border-radius: 3px; }
+					#faq .texttop .faqs-ultimo { margin: 20px 0 20px 0; padding: 30px; background: #cfa2e3 !important; border-radius: 3px;}
 
 				
 			
@@ -318,7 +318,6 @@ padding: 48px 0;}
 			margin-top: 20px;
 			padding: 26px;
 			padding-top: 31px;
-			
 		}
 
 		#team .texttop .teamdesk { display: flex;}
