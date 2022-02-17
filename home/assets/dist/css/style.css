@@ -3,7 +3,7 @@ html, body {
 	height: 100%;
 	overflow: auto;
 	scroll-behavior: smooth;
-
+	color: white;
 }
 
 
@@ -14,24 +14,26 @@ html, body {
     display: none;
 }
 
-.navbar { padding-top: 2rem;  }
+.navbar { padding-top: 2rem; max-width: 75%; margin: auto; }
 
 #about { padding: 50px 0 0 20px;}
 #operator p {text-align: center !important;}
 
-#video { padding: 35px 0 30px 0; background: black;}
-#video #ytvideo {width: 100%; height: 600px;}
+#video {
+	background: url(img/bgvideo_grande.png) center center black;}
+#video #ytvideo {height: 100vh; }
 
 	#main { background: #143f5d; }
 
-	.btn-outline-warning {
+	.btn {
 		color: #ffffff;
 		border-color: #ffffff;
+		margin-top: 8px;
 	}
 
-	.btn-outline-warning:hover {
+	.btn:hover {
 		color: #000;
-		background-color: #e6a8ee !important;
+		background-color: #CFA2E4 !important;
 		border-color: #fff !important;
 	  }
 
@@ -46,41 +48,52 @@ html, body {
 
 	#slidertopo .texttop { padding-top: 6%;}
 	#slidertopo .texttop h1 {font-family: 'Hanson'; font-weight: normal; font-style: normal; color: #fff; font-size: 1.5em; text-align: center; text-shadow: 2px 2px 3px #000;}
-	#slidertopo .texttop h2 {font-family: 'Avenir LT Std'; font-weight: normal; font-style: normal; color: #fff; font-size: 1em; text-align: center; text-shadow: 2px 2px 3px #000;}
+	#slidertopo .texttop h2 {font-family: 'Avenir LT Std'; font-weight: normal; font-style: normal; color: #fff; font-size: 16px; text-align: center; text-shadow: 2px 2px 3px #000;}
 	#slidertopo .texttop {text-align: center;}
-	#slidertopo .texttop .btn { font-family: 'Avenir LT Std';  border: 2px solid #fff; font-family: ;
-		padding: 0.475rem 1.5rem; border-radius: 0.9rem; margin-top: 10px;}
 
 		
 		#nfts {
 			background: url(img/main.png) fixed 100px center no-repeat;
-			height: 550px;
+			min-height: 550px;
+			height: 75vh;
 			position: relative;
+			margin: 0;
+			padding: 0;
 			background-position: center -53px;
 			flex-direction: column;
 			align-items: center;
 			justify-content: center;
 		}
-	
-	#nfts .texttop {    padding-top: 184px;}		#nfts .texttop h1 {font-family: 'Hanson'; font-weight: normal; font-style: normal; color: #fff; font-size: 1.5em; text-align: center;}
-		#nfts .texttop h2 {font-family: 'Avenir LT Std'; font-weight: normal; font-style: normal; color: #fff; font-size: 1em; text-align: center; }
-		#nfts .texttop {text-align: center;}
-		#nfts .texttop .btn { font-family: 'Avenir LT Std';  border: 2px solid #fff; font-family: ;
-			padding: 0.475rem 1.5rem; border-radius: 0.9rem; margin-top: 10px;}
 
-		#team  { padding-top: 50px;}
+		#nfts .container-fluid {
+			background: rgba(0, 0, 0, .5);
+			/* border-radius: 8px; */
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		}
+
+		#nfts .container {
+			max-width: 600px;
+
+		}
+			#nfts .texttop h1 {font-family: 'Hanson'; font-weight: normal; font-style: normal; color: #fff; font-size: 1.5em; text-align: center;}
+		#nfts .texttop h2 {font-family: 'Avenir LT Std'; font-weight: normal; font-style: normal; color: #fff; font-size: 16px; text-align: center; }
+		#nfts .texttop {text-align: center;}
+	
 
 		#team .person { padding: 0px;}
-		#team .p1 { background: #3c0387;}
-		#team .p2 { background: #f8910a;}
-		#team .p3 { background: #cf008a;}
-		#team .p4 { background: #12df23;}
-		#team .p5 { background: #f7e600;}
-		#team .p6 { background: #3c0387;}
+		#team .p1 { background: #CFA2E4;}
+		#team .p2 { background: #efefef;}
+		#team .p3 { background: #CFA2E4;}
+		#team .p4 { background: #efefef;}
+		#team .p5 { background: #CFA2E4;}
+		#team .p6 { background: #efefef;}
+		#team .p7 { background: #CFA2E4;}
 
 
 			#personalize{
-				background: url(img/bgvideo_grande.png) center center;				
+				background: url(img/bgvideo_grande.png) center center black;
 				position: relative;
 				overflow: hidden;
 				background-position: center 1112px;		
@@ -88,13 +101,10 @@ html, body {
 				align-items: center;
 				justify-content: center;
 			}
-			#personalize .texttop { padding-top:90px;}
 			#personalize .texttop h1 {font-family: 'Hanson'; font-weight: normal; font-style: normal; color: #fff; font-size: 1.5em; text-align: center; }
-			#personalize .texttop h2 {font-family: 'Avenir LT Std'; font-weight: normal; font-style: normal; color: #fff; font-size: 1em; text-align: center; }
+			#personalize .texttop h2 {font-family: 'Avenir LT Std'; font-weight: normal; font-style: normal; color: #fff; font-size: 16px; text-align: center; }
 			#personalize .texttop {text-align: center;}
-			#personalize .texttop .btn { font-family: 'Avenir LT Std';  border: 2px solid #fff; font-family: ;
-				padding: 0.475rem 1.5rem; border-radius: 0.9rem; margin-top: 10px;}
-	
+			
 
 
 				#faq{
@@ -106,19 +116,11 @@ html, body {
 					justify-content: center;
 				}
 
-
-				#faq .texttop p {
-					margin-bottom: 0px;
-				}
-
-				#faq .texttop { padding-top:60px;}
 				#faq .texttop h1 {font-family: 'Hanson'; font-weight: normal; font-style: normal; color: #fff; font-size: 2em; padding-bottom: 15px; text-align: center; }
 				#faq .texttop h2 {font-family: 'Hanson'; font-weight: normal; font-style: normal; color: #110a26; font-size: 1.2em; text-align: center; }
 				#faq .texttop p {font-family: 'Avenir LT Std'; font-weight: normal; font-style: normal; color: #110a26; font-size: 16px; text-align: center; }
 				#faq .texttop {text-align: center;}
-				#faq .texttop .btn { font-family: 'Avenir LT Std';  border: 2px solid #fff; font-family: ;
-					padding: 0.475rem 1.5rem; border-radius: 0.9rem; margin-top: 10px;}
-		
+				
 					#faq .texttop .faqs { margin-top: 20px; padding: 30px; background: #cfa2e3 !important; border-radius: 3px;}
 					#faq .texttop .faqs-primeiro { margin: 0px 0 0px 0; padding: 30px;  background: #cfa2e3 !important; border-radius: 3px; }
 					#faq .texttop .faqs-ultimo { margin: 20px 0 20px 0; padding: 30px; background: #cfa2e3 !important; border-radius: 3px;}
@@ -152,7 +154,7 @@ html, body {
 	#contract-official-mobile { background: #0d2a3f;  border-radius: 25px; padding: 2px 10px 2px 10px; color: #fff; font-family: 'Ubuntu', sans-serif; margin: 0 auto; }
 
 	.nav-pills .nav-link.active, .nav-pills .show>.nav-link {color: #fff;
-    background-color: #e6a8ee;e6a8ee
+    background-color: #CFA2E4;CFA2E4
 }
 
 	
@@ -175,16 +177,20 @@ html, body {
 		color: rgb(255 255 255);
 	}
 
-	.nav-link { color: #fff; font-family: 'Hanson'; font-weight: lighter; font-style: normal;   text-shadow: 1px 1px #000; text-transform: uppercase;}
+	.nav-link { color: #fff; font-family: 'Avenir LT Std'; font-weight: lighter; font-style: normal;   text-shadow: 1px 1px #000; text-transform: uppercase;}
 
+	.navbar .navbar-nav {
+		margin-left: auto;
+		margin-right: 0;
+	}
 
 	.navbar .navbar-nav .nav-link {
 		color: #ffffff;
-		font-size: 1em;
+		font-size: 16px;
 		}
 		
 	.navbar .navbar-nav .nav-link:hover{
-		color: #e6a8ee;
+		color: #CFA2E4;
 	}
 	.navbar-logo-centered .navbar-nav .nav-link{
 		padding: .5em 1em;
@@ -211,7 +217,7 @@ height: auto;
 	position: relative;
 	overflow: hidden;
 	background-position: center;
-padding: 48px 0;}
+}
 
 
  #top .sprite {
@@ -248,7 +254,6 @@ padding: 48px 0;}
      to { background-position: -8811px; }
 }
 
-	#footer .logo { padding-top: 80px;  }
 	#footer p {font-family: 'Avenir LT Std'; font-size: 0.8em; color: #FFF; margin: 0 auto;   text-shadow: 1px 1px 2px #000;	}
 	#footer h3 { font-family: 'Ubuntu', sans-serif; font-size: 1.4em; color: #fff;  text-align: center; margin: 0 auto; padding: 100px 0 20px 0; }
     #footer #navfooter { display: flex; flex-direction: column;}
@@ -260,7 +265,7 @@ padding: 48px 0;}
     #footer #followus li { float: left; padding-left: 30px; list-style: none; text-align: center;}
     #footer #followus .first { float: left; padding-left: 0px !important; list-style: none; text-align: center;}
 
-	#footer h1 {font-family: 'Hanson'; font-weight: normal; font-style: normal; color: #fff; font-size: 1.5em; text-align: center; }
+	#footer h1 {font-family: 'Hanson'; font-weight: normal; font-style: normal; color: #fff; font-size: 1.5em; text-align: center; text-transform: uppercase; }
 
 
 
@@ -277,8 +282,13 @@ padding: 48px 0;}
 	  
 	@media only screen and (max-width: 600px) {
 
+		body {
+			font-size: 14px;
+		}
+
 	#video #ytvideo {		
-		height: 258px;
+		/* height: 258px; */
+		padding: 0;
 	}
 
 	#video { padding: 35px 0 30px 0; background: black; height: 360px !important;}
@@ -293,7 +303,7 @@ padding: 48px 0;}
 			padding-bottom: 83px;
 		}
 
-		#slidertopo .texttop h1 {font-family: 'Hanson'; font-weight: normal; font-style: normal; color: #fff; font-size: 1em; text-align: center; text-shadow: 2px 2px 3px #000;}
+		#slidertopo .texttop h1 {font-family: 'Hanson'; font-weight: normal; font-style: normal; color: #fff; font-size: 16px; text-align: center; text-shadow: 2px 2px 3px #000;}
 
 
 		#slidertopo .texttop h2 {
@@ -301,7 +311,7 @@ padding: 48px 0;}
 			font-weight: normal;
 			font-style: normal;
 			color: #fff;
-			font-size: 1em;
+			font-size: 16px;
 			text-align: center;
 			text-shadow: 2px 2px 3px #000;
 		}
@@ -335,18 +345,11 @@ padding: 48px 0;}
 
 		}
 
-		#nfts .texttop { padding-top:20%;}
-
-
-
 		#nfts .texttop h2 {
 			font-family: 'Avenir LT Std';
 			font-weight: normal;
 			font-style: normal;
 			color: #fff;
-			font-size: 1em;
-			/* padding: 34px; */
-			width: 72%;
 			text-align: center;
 		}
 
@@ -355,8 +358,6 @@ padding: 48px 0;}
 			font-weight: normal;
 			font-style: normal;
 			color: #fff;
-			width: 50%;
-			font-size: 1em;
 			text-align: center;
 		}
 
