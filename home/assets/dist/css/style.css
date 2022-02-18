@@ -292,6 +292,11 @@ height: auto;
 			font-size: 14px;
 		}
 
+		.navbar {
+			max-width: 100%;
+			padding: 1rem;
+		}
+
 	#video #ytvideo {		
 		/* height: 258px; */
 		padding: 0;
@@ -367,9 +372,6 @@ height: auto;
 			text-align: center;
 		}
 
-		#personalize .texttop {
-			padding-top: 16%;
-		}
 
 
 		#wiki h3 { padding-top: 20px; }
@@ -483,6 +485,8 @@ height: auto;
 		.know {
 			width: 70vw;
 		}
+
+
 
 	  }
 
