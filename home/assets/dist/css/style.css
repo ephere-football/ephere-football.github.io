@@ -6,6 +6,14 @@ html, body {
 	color: white;
 }
 
+a {
+	color: white;
+}
+
+a:hover {
+	color: #CFA2E4;
+}
+
 
 .back-to-top {
     position: fixed;
@@ -67,7 +75,6 @@ html, body {
 
 		#nfts .container-fluid {
 			background: rgba(0, 0, 0, .5);
-			/* border-radius: 8px; */
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -101,8 +108,8 @@ html, body {
 				align-items: center;
 				justify-content: center;
 			}
-			#personalize .texttop h1 {font-family: 'Hanson'; font-weight: normal; font-style: normal; color: #fff; font-size: 1.5em; text-align: center; }
-			#personalize .texttop h2 {font-family: 'Avenir LT Std'; font-weight: normal; font-style: normal; color: #fff; font-size: 16px; text-align: center; }
+			#personalize .texttop h1 {font-family: 'Hanson'; font-weight: normal; font-style: normal; color: #fff; font-size: 1.5em; }
+			#personalize .texttop h2 {font-family: 'Avenir LT Std'; font-weight: normal; font-style: normal; color: #fff; font-size: 16px; }
 			#personalize .texttop {text-align: center;}
 			
 
@@ -116,14 +123,13 @@ html, body {
 					justify-content: center;
 				}
 
-				#faq .texttop h1 {font-family: 'Hanson'; font-weight: normal; font-style: normal; color: #fff; font-size: 2em; padding-bottom: 15px; text-align: center; }
-				#faq .texttop h2 {font-family: 'Hanson'; font-weight: normal; font-style: normal; color: #110a26; font-size: 1.2em; text-align: center; }
-				#faq .texttop p {font-family: 'Avenir LT Std'; font-weight: normal; font-style: normal; color: #110a26; font-size: 16px; text-align: center; }
+				#faq .texttop h1 {font-family: 'Hanson'; font-weight: normal; font-style: normal; color: #fff; font-size: 2em; text-transform: uppercase; }
+				#faq .texttop h2 {font-family: 'Hanson'; font-weight: normal; font-style: normal; color: #110a26; font-size: 1.2em; text-transform: uppercase; }
+				#faq .texttop p {font-family: 'Avenir LT Std'; font-weight: normal; font-style: normal; color: #110a26; font-size: 16px; }
+				#faq .texttop p:last-child { margin: 0; }
 				#faq .texttop {text-align: center;}
 				
-					#faq .texttop .faqs { margin-top: 20px; padding: 30px; background: #cfa2e3 !important; border-radius: 3px;}
-					#faq .texttop .faqs-primeiro { margin: 0px 0 0px 0; padding: 30px;  background: #cfa2e3 !important; border-radius: 3px; }
-					#faq .texttop .faqs-ultimo { margin: 20px 0 20px 0; padding: 30px; background: #cfa2e3 !important; border-radius: 3px;}
+					#faq .texttop .faqs { background: #cfa2e3 !important; border-radius: .25rem;}
 
 				
 			
@@ -551,4 +557,17 @@ height: auto;
 
 	ion-icon {
 		color: #fff;
+	}
+
+	#links {
+		list-style: none;
+	}
+
+	#links a {
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+
+	#links a:hover {
+		color: #CFA2E4;
 	}
