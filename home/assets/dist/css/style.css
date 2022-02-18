@@ -31,12 +31,18 @@ a:hover {
 	background: url(img/bgvideo_grande.png) center center black;}
 #video #ytvideo {height: 100vh; }
 
+
+#video .container {
+	padding: 0;
+}
 	#main { background: #143f5d; }
 
 	.btn {
 		color: #ffffff;
 		border-color: #ffffff;
 		margin-top: 8px;
+		font-family: 'Hanson';
+		text-transform: uppercase;
 	}
 
 	.btn:hover {
@@ -55,15 +61,13 @@ a:hover {
 	  
 
 	#slidertopo .texttop { padding-top: 6%;}
-	#slidertopo .texttop h1 {font-family: 'Hanson'; font-weight: normal; font-style: normal; color: #fff; font-size: 1.5em; text-align: center; text-shadow: 2px 2px 3px #000;}
+	#slidertopo .texttop h1 {font-family: 'Hanson'; font-weight: normal; font-style: normal; color: #fff; font-size: 2em; text-align: center; text-shadow: 2px 2px 3px #000;}
 	#slidertopo .texttop h2 {font-family: 'Avenir LT Std'; font-weight: normal; font-style: normal; color: #fff; font-size: 16px; text-align: center; text-shadow: 2px 2px 3px #000;}
 	#slidertopo .texttop {text-align: center;}
 
 		
 		#nfts {
 			background: url(img/main.png) fixed 100px center no-repeat;
-			min-height: 550px;
-			height: 75vh;
 			position: relative;
 			margin: 0;
 			padding: 0;
@@ -74,7 +78,6 @@ a:hover {
 		}
 
 		#nfts .container-fluid {
-			background: rgba(0, 0, 0, .5);
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -97,6 +100,11 @@ a:hover {
 		#team .p5 { background: #CFA2E4;}
 		#team .p6 { background: #efefef;}
 		#team .p7 { background: #CFA2E4;}
+		#team .p8 { background: #efefef;}
+		#team .p9 { background: #CFA2E4;}
+		#team .p10 { background: #efefef;}
+		#team .p11 { background: #CFA2E4;}
+		#team .p12 { background: #efefef;}
 
 
 			#personalize{
@@ -206,6 +214,7 @@ a:hover {
 		background: url(img/slider.png) no-repeat;
 		background-color: #000000;
 		background-position: bottom;
+		background-size: cover;
 		height: 625px;
 		position: relative;
 		overflow: hidden;
@@ -345,7 +354,6 @@ height: auto;
 
 		#nfts {
 			background: url(img/mobile_bg.jpg) 100px center;
-    height: 340px;
     background-size: cover;
     position: relative;
     overflow: hidden;
