@@ -160,7 +160,7 @@ a:hover {
 	#contract-official-mobile { background: #0d2a3f;  border-radius: 25px; padding: 2px 10px 2px 10px; color: #fff; font-family: 'Ubuntu', sans-serif; margin: 0 auto; }
 
 	.nav-pills .nav-link.active, .nav-pills .show>.nav-link {color: #fff;
-    background-color: #CFA2E4;CFA2E4
+    background-color: #CFA2E4;
 }
 
 	
@@ -183,7 +183,7 @@ a:hover {
 		color: rgb(255 255 255);
 	}
 
-	.nav-link { color: #fff; font-family: 'Avenir LT Std'; font-weight: lighter; font-style: normal;   text-shadow: 1px 1px #000; text-transform: uppercase;}
+	.nav-link { color: #fff; font-family: 'Avenir LT Std'; font-weight: lighter; font-style: normal;  text-transform: uppercase;}
 
 	.navbar .navbar-nav {
 		margin-left: auto;
@@ -570,4 +570,9 @@ height: auto;
 
 	#links a:hover {
 		color: #CFA2E4;
+	}
+
+	.logo {
+		position: relative;
+		top: -8px;
 	}
