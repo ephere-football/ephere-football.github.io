@@ -456,6 +456,7 @@ a:hover {
 
 #top {
 	background         : url(img/slider.png) no-repeat;
+	background         : url(img/slider.webp) no-repeat;
 	background-color   : #000000;
 	background-position: bottom;
 	background-size    : cover;
@@ -720,6 +721,7 @@ a:hover {
 
 	#top {
 		background         : url(img/slider.png);
+		background         : url(img/slider.webp);
 		/* position        : relative; */
 		/* overflow        : hidden; */
 		background-repeat  : no-repeat;
