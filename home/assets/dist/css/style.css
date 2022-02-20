@@ -460,3 +460,60 @@ a:hover {
 	max-width: 100vw;
 	margin   : 0;
 }
+
+@media (max-width: 575.98px) {  }
+
+@media (max-width: 767.98px) {  }
+
+@media (max-width: 1199.98px) {
+}
+
+@media (max-width: 1399.98px) {
+	#team .p1 {
+		background: #CFA2E4;
+	}
+	
+	#team .p2 {
+		background: #efefef;
+	}
+	
+	#team .p3 {
+		background: #CFA2E4;
+	}
+	
+	#team .p4 {
+		background: #efefef;
+	}
+	
+	#team .p5 {
+		background: #CFA2E4;
+	}
+	
+	#team .p6 {
+		background: #efefef;
+	}
+	
+	#team .p7 {
+		background: #efefef;
+	}
+	
+	#team .p8 {
+		background: #CFA2E4;
+	}
+	
+	#team .p9 {
+		background: #efefef;
+	}
+	
+	#team .p10 {
+		background: #CFA2E4;
+	}
+	
+	#team .p11 {
+		background: #efefef;
+	}
+	
+	#team .p12 {
+		background: #CFA2E4;
+	}
+}
