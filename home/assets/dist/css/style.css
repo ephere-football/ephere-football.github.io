@@ -331,8 +331,35 @@ a:hover {
 	text-transform: uppercase;
 }
 
-@media only screen and (max-width: 600px) {
+.navbar .nav-item .nav-link {
+	color      : #fff;
+	font-weight: 600;
+}
 
+#links {
+	list-style: none;
+}
+
+#links a {
+	text-transform : uppercase;
+	text-decoration: none;
+}
+
+#links a:hover {
+	color: #CFA2E4;
+}
+
+.logo {
+	position: relative;
+	top     : -8px;
+}
+
+.cover-container {
+	max-width: 100vw;
+	margin   : 0;
+}
+
+@media (max-width: 575.98px) {
 	body {
 		font-size: 14px;
 	}
@@ -423,45 +450,7 @@ a:hover {
 		align-items        : center;
 		justify-content    : center;
 	}
-
 }
-
-@media only screen and (min-width: 1700px) {
-
-	#nfts {
-		background-size: cover;
-	}
-}
-
-.navbar .nav-item .nav-link {
-	color      : #fff;
-	font-weight: 600;
-}
-
-#links {
-	list-style: none;
-}
-
-#links a {
-	text-transform : uppercase;
-	text-decoration: none;
-}
-
-#links a:hover {
-	color: #CFA2E4;
-}
-
-.logo {
-	position: relative;
-	top     : -8px;
-}
-
-.cover-container {
-	max-width: 100vw;
-	margin   : 0;
-}
-
-@media (max-width: 575.98px) {  }
 
 @media (max-width: 767.98px) {  }
 
