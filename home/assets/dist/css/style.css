@@ -30,10 +30,6 @@ a:hover {
 	background: url(img/bgvideo_grande.png) center center black;
 }
 
-#video #ytvideo {
-	height: 100vh;
-}
-
 .btn {
 	color         : #ffffff;
 	border-color  : #ffffff;
@@ -302,6 +298,7 @@ a:hover {
 #footer #followus {
 	width          : 100%;
 	margin         : 0 auto 24px auto;
+	padding				 : 0%;
 	display        : flex;
 	flex-direction : row;
 	justify-content: center;
@@ -327,7 +324,7 @@ a:hover {
 	font-weight   : normal;
 	font-style    : normal;
 	color         : #fff;
-	font-size     : 1.5em;
+	font-size     : 2em;
 	text-align    : center;
 	text-transform: uppercase;
 }
@@ -339,6 +336,7 @@ a:hover {
 
 #links {
 	list-style: none;
+	padding		: 0%;
 }
 
 #links a {
@@ -369,11 +367,6 @@ a:hover {
 	.navbar {
 		max-width: 100%;
 		padding  : 1rem;
-	}
-
-	#video #ytvideo {
-		/* height: 258px; */
-		padding: 0;
 	}
 
 	#video {
