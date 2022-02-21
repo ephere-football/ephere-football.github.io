@@ -38,6 +38,7 @@ a:hover {
 	color         : #ffffff;
 	border-color  : #ffffff;
 	margin-top    : 8px;
+	padding-top		: 0.5rem;
 	font-family   : 'Hanson';
 	text-transform: uppercase;
 }
