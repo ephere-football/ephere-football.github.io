@@ -473,27 +473,27 @@ a:hover {
 	}
 	
 	#team .p7 {
-		background: #CFA2E4;
+		background: #efefef;
 	}
 	
 	#team .p8 {
-		background: #efefef;
+		background: #CFA2E4;
 	}
 	
 	#team .p9 {
-		background: #CFA2E4;
+		background: #efefef;
 	}
 	
 	#team .p10 {
-		background: #efefef;
-	}
-	
-	#team .p11 {
 		background: #CFA2E4;
 	}
 	
-	#team .p12 {
+	#team .p11 {
 		background: #efefef;
+	}
+	
+	#team .p12 {
+		background: #CFA2E4;
 	}
 }
 
