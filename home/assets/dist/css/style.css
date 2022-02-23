@@ -113,27 +113,27 @@ a:hover {
 }
 
 #team .p1 {
-	background: #efefef;
+	background: #CFA2E4;
 }
 
 #team .p2 {
-	background: #CFA2E4;
+	background: #efefef;
 }
 
 #team .p3 {
-	background: #efefef;
+	background: #CFA2E4;
 }
 
 #team .p4 {
-	background: #CFA2E4;
-}
-
-#team .p5 {
 	background: #efefef;
 }
 
-#team .p6 {
+#team .p5 {
 	background: #CFA2E4;
+}
+
+#team .p6 {
+	background: #efefef;
 }
 
 #team .p7 {
@@ -236,6 +236,15 @@ a:hover {
 #faq .texttop .faqs {
 	background   : #CFA2E4 !important;
 	border-radius: .25rem;
+}
+
+#faq .texttop .faqs a {
+	color: black;
+	text-decoration: underline;
+}
+
+#faq .texttop .faqs a:hover {
+	color: #fff;
 }
 
 .nav-link:focus,
@@ -449,27 +458,27 @@ a:hover {
 /* md */
 @media (max-width: 767.98px) {
 	#team .p1 {
-		background: #CFA2E4;
+		background: #efefef;
 	}
 	
 	#team .p2 {
-		background: #efefef;
+		background: #CFA2E4;
 	}
 	
 	#team .p3 {
-		background: #CFA2E4;
+		background: #efefef;
 	}
 	
 	#team .p4 {
-		background: #efefef;
-	}
-	
-	#team .p5 {
 		background: #CFA2E4;
 	}
 	
-	#team .p6 {
+	#team .p5 {
 		background: #efefef;
+	}
+	
+	#team .p6 {
+		background: #CFA2E4;
 	}
 	
 	#team .p7 {
