@@ -30,6 +30,10 @@ a:hover {
 	background: url(img/bgvideo_grande.png) center center black;
 }
 
+#video .embed-responsive {
+	max-height: 100%;
+}
+
 .btn {
 	color         : #ffffff;
 	border-color  : #ffffff;
